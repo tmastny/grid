@@ -117,3 +117,692 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git add -A
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git init[K[K[K[Kcommit -m "ii[Knitial commit"
+[master (root-commit) 2e808c2] initial commit
+ 220 files changed, 48349 insertions(+)
+ create mode 100644 .Rproj.user/5082D8E3/console06/2FD98D0E
+ create mode 100644 .Rproj.user/5082D8E3/console06/2FD98D0E.env
+ create mode 100644 .Rproj.user/5082D8E3/console06/INDEX001
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/129F1498
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/22B56A82
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/3354C7D6
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/3728B3F1
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/5532B5B8
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/5F07B189
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/861A5FA6
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/86DED3C
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/9EB3F436
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/A00E9408
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/A28125D3
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/A61956D3
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/B9601DCB
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/BF37F23D
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/C535307B
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/EA5D19E9
+ create mode 100644 .Rproj.user/5082D8E3/sources/prop/INDEX
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/14CFF33D-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/18218433-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/1A3D29B5-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/1CA7D9E5-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/1EE96B00-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/38D4E666-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/4060062-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/5C6C65A1-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/7433F9BA-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/87B853DD-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/8A3D7365-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/8CE4CE6-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/8D48774B-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/9C92E17D-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/9D87274C-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/CED59852-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/D84DBF2-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/E1A3B155-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/E5AB9403-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/F288442F-contents
+ create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 DESCRIPTION
+ create mode 100644 Makefile.in
+ create mode 100644 Makefile.win
+ create mode 100644 NAMESPACE
+ create mode 100644 R/components.R
+ create mode 100644 R/curve.R
+ create mode 100644 R/debug.R
+ create mode 100644 R/edit.R
+ create mode 100644 R/frames.R
+ create mode 100644 R/function.R
+ create mode 100644 R/gpar.R
+ create mode 100644 R/grab.R
+ create mode 100644 R/grid.R
+ create mode 100644 R/grob.R
+ create mode 100644 R/highlevel.R
+ create mode 100644 R/interactive.R
+ create mode 100644 R/just.R
+ create mode 100644 R/layout.R
+ create mode 100644 R/ls.R
+ create mode 100644 R/metric.R
+ create mode 100644 R/origin.R
+ create mode 100644 R/primitives.R
+ create mode 100644 R/roundRect.R
+ create mode 100644 R/size.R
+ create mode 100644 R/unit.R
+ create mode 100644 R/util.R
+ create mode 100644 R/viewport.R
+ create mode 100644 R/zzz.R
+ create mode 100644 grid.Rproj
+ create mode 100644 inst/doc/DivByZero.txt
+ create mode 100644 inst/doc/changes.txt
+ create mode 100644 man/Grid.Rd
+ create mode 100644 man/absolute.size.Rd
+ create mode 100644 man/arrow.Rd
+ create mode 100644 man/calcStringMetric.Rd
+ create mode 100644 man/current.viewport.Rd
+ create mode 100644 man/dataViewport.Rd
+ create mode 100644 man/depth.Rd
+ create mode 100644 man/deviceLoc.Rd
+ create mode 100644 man/drawDetails.Rd
+ create mode 100644 man/editDetails.Rd
+ create mode 100644 man/explode.Rd
+ create mode 100644 man/gEdit.Rd
+ create mode 100644 man/gPath.Rd
+ create mode 100644 man/getNames.Rd
+ create mode 100644 man/gpar.Rd
+ create mode 100644 man/grid-defunct.Rd
+ create mode 100644 man/grid-internal.Rd
+ create mode 100644 man/grid-package.Rd
+ create mode 100644 man/grid.DLapply.Rd
+ create mode 100644 man/grid.add.Rd
+ create mode 100644 man/grid.bezier.Rd
+ create mode 100644 man/grid.cap.Rd
+ create mode 100644 man/grid.circle.Rd
+ create mode 100644 man/grid.clip.Rd
+ create mode 100644 man/grid.convert.Rd
+ create mode 100644 man/grid.copy.Rd
+ create mode 100644 man/grid.curve.Rd
+ create mode 100644 man/grid.delay.Rd
+ create mode 100644 man/grid.display.list.Rd
+ create mode 100644 man/grid.draw.Rd
+ create mode 100644 man/grid.edit.Rd
+ create mode 100644 man/grid.force.Rd
+ create mode 100644 man/grid.frame.Rd
+ create mode 100644 man/grid.function.Rd
+ create mode 100644 man/grid.get.Rd
+ create mode 100644 man/grid.grab.Rd
+ create mode 100644 man/grid.grep.Rd
+ create mode 100644 man/grid.grill.Rd
+ create mode 100644 man/grid.grob.Rd
+ create mode 100644 man/grid.layout.Rd
+ create mode 100644 man/grid.lines.Rd
+ create mode 100644 man/grid.locator.Rd
+ create mode 100644 man/grid.ls.Rd
+ create mode 100644 man/grid.move.to.Rd
+ create mode 100644 man/grid.newpage.Rd
+ create mode 100644 man/grid.null.Rd
+ create mode 100644 man/grid.pack.Rd
+ create mode 100644 man/grid.path.Rd
+ create mode 100644 man/grid.place.Rd
+ create mode 100644 man/grid.plot.and.legend.Rd
+ create mode 100644 man/grid.points.Rd
+ create mode 100644 man/grid.polygon.Rd
+ create mode 100644 man/grid.pretty.Rd
+ create mode 100644 man/grid.raster.Rd
+ create mode 100644 man/grid.record.Rd
+ create mode 100644 man/grid.rect.Rd
+ create mode 100644 man/grid.refresh.Rd
+ create mode 100644 man/grid.remove.Rd
+ create mode 100644 man/grid.reorder.Rd
+ create mode 100644 man/grid.roundrect.Rd
+ create mode 100644 man/grid.segments.Rd
+ create mode 100644 man/grid.set.Rd
+ create mode 100644 man/grid.show.layout.Rd
+ create mode 100644 man/grid.show.viewport.Rd
+ create mode 100644 man/grid.text.Rd
+ create mode 100644 man/grid.xaxis.Rd
+ create mode 100644 man/grid.xspline.Rd
+ create mode 100644 man/grid.yaxis.Rd
+ create mode 100644 man/grobName.Rd
+ create mode 100644 man/grobWidth.Rd
+ create mode 100644 man/grobX.Rd
+ create mode 100644 man/legendGrob.Rd
+ create mode 100644 man/makeContent.Rd
+ create mode 100644 man/plotViewport.Rd
+ create mode 100644 man/resolveRasterSize.Rd
+ create mode 100644 man/showGrob.Rd
+ create mode 100644 man/showViewport.Rd
+ create mode 100644 man/stringWidth.Rd
+ create mode 100644 man/unit.Rd
+ create mode 100644 man/unit.c.Rd
+ create mode 100644 man/unit.length.Rd
+ create mode 100644 man/unit.pmin.Rd
+ create mode 100644 man/unit.rep.Rd
+ create mode 100644 man/valid.just.Rd
+ create mode 100644 man/validDetails.Rd
+ create mode 100644 man/viewport.Rd
+ create mode 100644 man/viewports.Rd
+ create mode 100644 man/vpPath.Rd
+ create mode 100644 man/widthDetails.Rd
+ create mode 100644 man/xDetails.Rd
+ create mode 100644 man/xsplinePoints.Rd
+ create mode 100644 po/R-da.po
+ create mode 100644 po/R-de.po
+ create mode 100644 po/R-fr.po
+ create mode 100644 po/R-grid.pot
+ create mode 100644 po/R-ja.po
+ create mode 100644 po/R-ko.po
+ create mode 100644 po/R-pl.po
+ create mode 100644 po/R-pt_BR.po
+ create mode 100644 po/R-ru.po
+ create mode 100644 po/R-zh_CN.po
+ create mode 100644 po/da.po
+ create mode 100644 po/de.po
+ create mode 100644 po/fr.po
+ create mode 100644 po/grid.pot
+ create mode 100644 po/it.po
+ create mode 100644 po/ja.po
+ create mode 100644 po/ko.po
+ create mode 100644 po/pl.po
+ create mode 100644 po/pt_BR.po
+ create mode 100644 po/ru.po
+ create mode 100644 po/zh_CN.po
+ create mode 100644 src/Makefile.in
+ create mode 100644 src/Makefile.win
+ create mode 100644 src/gpar.c
+ create mode 100644 src/grid-win.def
+ create mode 100644 src/grid.c
+ create mode 100644 src/grid.h
+ create mode 100644 src/just.c
+ create mode 100644 src/layout.c
+ create mode 100644 src/matrix.c
+ create mode 100644 src/register.c
+ create mode 100644 src/state.c
+ create mode 100644 src/unit.c
+ create mode 100644 src/util.c
+ create mode 100644 src/viewport.c
+ create mode 100644 tests/bugs.R
+ create mode 100644 tests/reg.R
+ create mode 100644 tests/testls.R
+ create mode 100644 tests/testls.Rout.save
+ create mode 100644 tests/units.R
+ create mode 100644 vignettes/displaylist.Rnw
+ create mode 100644 vignettes/frame.Rnw
+ create mode 100644 vignettes/grid.Rnw
+ create mode 100644 vignettes/grid.Rnw-nolattice
+ create mode 100644 vignettes/grid.bib
+ create mode 100644 vignettes/grobs.Rnw
+ create mode 100644 vignettes/interactive.Rnw
+ create mode 100644 vignettes/locndimn.Rnw
+ create mode 100644 vignettes/moveline.Rnw
+ create mode 100644 vignettes/nonfinite.Rnw
+ create mode 100644 vignettes/plotexample.Rnw
+ create mode 100644 vignettes/rotated.Rnw
+ create mode 100644 vignettes/saveload.Rnw
+ create mode 100644 vignettes/sharing.Rnw
+ create mode 100644 vignettes/viewports.Rnw
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git ceh[K[Kheckout Mman/
+Grid.Rd                  grid.force.Rd            grid.show.layout.Rd
+absolute.size.Rd         grid.frame.Rd            grid.show.viewport.Rd
+arrow.Rd                 grid.function.Rd         grid.text.Rd
+calcStringMetric.Rd      grid.get.Rd              grid.xaxis.Rd
+current.viewport.Rd      grid.grab.Rd             grid.xspline.Rd
+dataViewport.Rd          grid.grep.Rd             grid.yaxis.Rd
+depth.Rd                 grid.grill.Rd            grobName.Rd
+deviceLoc.Rd             grid.grob.Rd             grobWidth.Rd
+drawDetails.Rd           grid.layout.Rd           grobX.Rd
+editDetails.Rd           grid.lines.Rd            legendGrob.Rd
+explode.Rd               grid.locator.Rd          makeContent.Rd
+gEdit.Rd                 grid.ls.Rd               plotViewport.Rd
+gPath.Rd                 grid.move.to.Rd          resolveRasterSize.Rd
+getNames.Rd              grid.newpage.Rd          showGrob.Rd
+gpar.Rd                  grid.null.Rd             showViewport.Rd
+grid-defunct.Rd          grid.pack.Rd             stringWidth.Rd
+grid-internal.Rd         grid.path.Rd             unit.Rd
+grid-package.Rd          grid.place.Rd            unit.c.Rd
+grid.DLapply.Rd          grid.plot.and.legend.Rd  unit.length.Rd
+grid.add.Rd              grid.points.Rd           unit.pmin.Rd
+grid.bezier.Rd           grid.polygon.Rd          unit.rep.Rd
+grid.cap.Rd              grid.pretty.Rd           valid.just.Rd
+grid.circle.Rd           grid.raster.Rd           validDetails.Rd
+grid.clip.Rd             grid.record.Rd           viewport.Rd
+grid.convert.Rd          grid.rect.Rd             viewports.Rd
+grid.copy.Rd             grid.refresh.Rd          vpPath.Rd
+grid.curve.Rd            grid.remove.Rd           widthDetails.Rd
+grid.delay.Rd            grid.reorder.Rd          xDetails.Rd
+grid.display.list.Rd     grid.roundrect.Rd        xsplinePoints.Rd
+grid.draw.Rd             grid.segments.Rd         
+--More--[K[32m[master][0m [33;1mgrid[m$ git checkout man/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[32m[master][0m [33;1mgrid[m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/861A5FA6[m
+	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mdeleted:    Makefile.in[m
+	[31mdeleted:    Makefile.win[m
+	[31mmodified:   grid.Rproj[m
+	[31mdeleted:    src/Makefile.in[m
+	[31mdeleted:    src/Makefile.win[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   DESCRIPTION[m
+	[31mdeleted:    Makefile.in[m
+	[31mdeleted:    Makefile.win[m
+	[31mmodified:   grid.Rproj[m
+	[31mdeleted:    man/Grid.Rd[m
+	[31mdeleted:    man/absolute.size.Rd[m
+	[31mdeleted:    man/arrow.Rd[m
+	[31mdeleted:    man/calcStringMetric.Rd[m
+	[31mdeleted:    man/current.viewport.Rd[m
+	[31mdeleted:    man/dataViewport.Rd[m
+	[31mdeleted:    man/depth.Rd[m
+	[31mdeleted:    man/deviceLoc.Rd[m
+	[31mdeleted:    man/drawDetails.Rd[m
+	[31mdeleted:    man/editDetails.Rd[m
+	[31mdeleted:    man/explode.Rd[m
+	[31mdeleted:    man/gEdit.Rd[m
+	[31mdeleted:    man/gPath.Rd[m
+	[31mdeleted:    man/getNames.Rd[m
+	[31mdeleted:    man/gpar.Rd[m
+	[31mdeleted:    man/grid-defunct.Rd[m
+	[31mdeleted:    man/grid-internal.Rd[m
+	[31mdeleted:    man/grid-package.Rd[m
+	[31mdeleted:    man/grid.DLapply.Rd[m
+	[31mdeleted:    man/grid.add.Rd[m
+	[31mdeleted:    man/grid.bezier.Rd[m
+	[31mdeleted:    man/grid.cap.Rd[m
+	[31mdeleted:    man/grid.circle.Rd[m
+	[31mdeleted:    man/grid.clip.Rd[m
+	[31mdeleted:    man/grid.convert.Rd[m
+	[31mdeleted:    man/grid.copy.Rd[m
+	[31mdeleted:    man/grid.curve.Rd[m
+	[31mdeleted:    man/grid.delay.Rd[m
+	[31mdeleted:    man/grid.display.list.Rd[m
+	[31mdeleted:    man/grid.draw.Rd[m
+	[31mdeleted:    man/grid.edit.Rd[m
+	[31mdeleted:    man/grid.force.Rd[m
+	[31mdeleted:    man/grid.frame.Rd[m
+	[31mdeleted:    man/grid.function.Rd[m
+	[31mdeleted:    man/grid.get.Rd[m
+	[31mdeleted:    man/grid.grab.Rd[m
+	[31mdeleted:    man/grid.grep.Rd[m
+	[31mdeleted:    man/grid.grill.Rd[m
+	[31mdeleted:    man/grid.grob.Rd[m
+	[31mdeleted:    man/grid.layout.Rd[m
+	[31mdeleted:    man/grid.lines.Rd[m
+	[31mdeleted:    man/grid.locator.Rd[m
+	[31mdeleted:    man/grid.ls.Rd[m
+	[31mdeleted:    man/grid.move.to.Rd[m
+	[31mdeleted:    man/grid.newpage.Rd[m
+	[31mdeleted:    man/grid.null.Rd[m
+	[31mdeleted:    man/grid.pack.Rd[m
+	[31mdeleted:    man/grid.path.Rd[m
+	[31mdeleted:    man/grid.place.Rd[m
+	[31mdeleted:    man/grid.plot.and.legend.Rd[m
+	[31mdeleted:    man/grid.points.Rd[m
+	[31mdeleted:    man/grid.polygon.Rd[m
+	[31mdeleted:    man/grid.pretty.Rd[m
+	[31mdeleted:    man/grid.raster.Rd[m
+	[31mdeleted:    man/grid.record.Rd[m
+	[31mdeleted:    man/grid.rect.Rd[m
+	[31mdeleted:    man/grid.refresh.Rd[m
+	[31mdeleted:    man/grid.remove.Rd[m
+	[31mdeleted:    man/grid.reorder.Rd[m
+	[31mdeleted:    man/grid.roundrect.Rd[m
+	[31mdeleted:    man/grid.segments.Rd[m
+	[31mdeleted:    man/grid.set.Rd[m
+	[31mdeleted:    man/grid.show.layout.Rd[m
+	[31mdeleted:    man/grid.show.viewport.Rd[m
+	[31mdeleted:    man/grid.text.Rd[m
+	[31mdeleted:    man/grid.xaxis.Rd[m
+	[31mdeleted:    man/grid.xspline.Rd[m
+	[31mdeleted:    man/grid.yaxis.Rd[m
+	[31mdeleted:    man/grobName.Rd[m
+	[31mdeleted:    man/grobWidth.Rd[m
+	[31mdeleted:    man/grobX.Rd[m
+	[31mdeleted:    man/legendGrob.Rd[m
+	[31mdeleted:    man/makeContent.Rd[m
+	[31mdeleted:    man/plotViewport.Rd[m
+	[31mdeleted:    man/resolveRasterSize.Rd[m
+	[31mdeleted:    man/showGrob.Rd[m
+	[31mdeleted:    man/showViewport.Rd[m
+	[31mdeleted:    man/stringWidth.Rd[m
+	[31mdeleted:    man/unit.Rd[m
+	[31mdeleted:    man/unit.c.Rd[m
+	[31mdeleted:    man/unit.length.Rd[m
+	[31mdeleted:    man/unit.pmin.Rd[m
+	[31mdeleted:    man/unit.rep.Rd[m
+	[31mdeleted:    man/valid.just.Rd[m
+	[31mdeleted:    man/validDetails.Rd[m
+	[31mdeleted:    man/viewport.Rd[m
+	[31mdeleted:    man/viewports.Rd[m
+	[31mdeleted:    man/vpPath.Rd[m
+	[31mdeleted:    man/widthDetails.Rd[m
+	[31mdeleted:    man/xDetails.Rd[m
+	[31mdeleted:    man/xsplinePoints.Rd[m
+	[31mdeleted:    src/Makefile.in[m
+	[31mdeleted:    src/Makefile.win[m
+	[31mdeleted:    vignettes/displaylist.Rnw[m
+	[31mdeleted:    vignettes/frame.Rnw[m
+	[31mdeleted:    vignettes/grid.Rnw[m
+	[31mdeleted:    vignettes/grid.Rnw-nolattice[m
+	[31mdeleted:    vignettes/grid.bib[m
+	[31mdeleted:    vignettes/grobs.Rnw[m
+	[31mdeleted:    vignettes/interactive.Rnw[m
+	[31mdeleted:    vignettes/locndimn.Rnw[m
+	[31mdeleted:    vignettes/moveline.Rnw[m
+	[31mdeleted:    vignettes/nonfinite.Rnw[m
+	[31mdeleted:    vignettes/plotexample.Rnw[m
+	[31mdeleted:    vignettes/rotated.Rnw[m
+	[31mdeleted:    vignettes/saveload.Rnw[m
+	[31mdeleted:    vignettes/sharing.Rnw[m
+	[31mdeleted:    vignettes/viewports.Rnw[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+	[31mgrid_1.1.tar.gz[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ mg[K[Kgit status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   DESCRIPTION[m
+	[31mdeleted:    Makefile.in[m
+	[31mdeleted:    Makefile.win[m
+	[31mmodified:   grid.Rproj[m
+	[31mdeleted:    man/Grid.Rd[m
+	[31mdeleted:    man/absolute.size.Rd[m
+	[31mdeleted:    man/arrow.Rd[m
+	[31mdeleted:    man/calcStringMetric.Rd[m
+	[31mdeleted:    man/current.viewport.Rd[m
+	[31mdeleted:    man/dataViewport.Rd[m
+	[31mdeleted:    man/depth.Rd[m
+	[31mdeleted:    man/deviceLoc.Rd[m
+	[31mdeleted:    man/drawDetails.Rd[m
+	[31mdeleted:    man/editDetails.Rd[m
+	[31mdeleted:    man/explode.Rd[m
+	[31mdeleted:    man/gEdit.Rd[m
+	[31mdeleted:    man/gPath.Rd[m
+	[31mdeleted:    man/getNames.Rd[m
+	[31mdeleted:    man/gpar.Rd[m
+	[31mdeleted:    man/grid-defunct.Rd[m
+	[31mdeleted:    man/grid-internal.Rd[m
+	[31mdeleted:    man/grid-package.Rd[m
+	[31mdeleted:    man/grid.DLapply.Rd[m
+	[31mdeleted:    man/grid.add.Rd[m
+	[31mdeleted:    man/grid.bezier.Rd[m
+	[31mdeleted:    man/grid.cap.Rd[m
+	[31mdeleted:    man/grid.circle.Rd[m
+	[31mdeleted:    man/grid.clip.Rd[m
+	[31mdeleted:    man/grid.convert.Rd[m
+	[31mdeleted:    man/grid.copy.Rd[m
+	[31mdeleted:    man/grid.curve.Rd[m
+	[31mdeleted:    man/grid.delay.Rd[m
+	[31mdeleted:    man/grid.display.list.Rd[m
+	[31mdeleted:    man/grid.draw.Rd[m
+	[31mdeleted:    man/grid.edit.Rd[m
+	[31mdeleted:    man/grid.force.Rd[m
+	[31mdeleted:    man/grid.frame.Rd[m
+	[31mdeleted:    man/grid.function.Rd[m
+	[31mdeleted:    man/grid.get.Rd[m
+	[31mdeleted:    man/grid.grab.Rd[m
+	[31mdeleted:    man/grid.grep.Rd[m
+	[31mdeleted:    man/grid.grill.Rd[m
+	[31mdeleted:    man/grid.grob.Rd[m
+	[31mdeleted:    man/grid.layout.Rd[m
+	[31mdeleted:    man/grid.lines.Rd[m
+	[31mdeleted:    man/grid.locator.Rd[m
+	[31mdeleted:    man/grid.ls.Rd[m
+	[31mdeleted:    man/grid.move.to.Rd[m
+	[31mdeleted:    man/grid.newpage.Rd[m
+	[31mdeleted:    man/grid.null.Rd[m
+	[31mdeleted:    man/grid.pack.Rd[m
+	[31mdeleted:    man/grid.path.Rd[m
+	[31mdeleted:    man/grid.place.Rd[m
+	[31mdeleted:    man/grid.plot.and.legend.Rd[m
+	[31mdeleted:    man/grid.points.Rd[m
+	[31mdeleted:    man/grid.polygon.Rd[m
+	[31mdeleted:    man/grid.pretty.Rd[m
+	[31mdeleted:    man/grid.raster.Rd[m
+	[31mdeleted:    man/grid.record.Rd[m
+	[31mdeleted:    man/grid.rect.Rd[m
+	[31mdeleted:    man/grid.refresh.Rd[m
+	[31mdeleted:    man/grid.remove.Rd[m
+	[31mdeleted:    man/grid.reorder.Rd[m
+	[31mdeleted:    man/grid.roundrect.Rd[m
+	[31mdeleted:    man/grid.segments.Rd[m
+	[31mdeleted:    man/grid.set.Rd[m
+	[31mdeleted:    man/grid.show.layout.Rd[m
+	[31mdeleted:    man/grid.show.viewport.Rd[m
+	[31mdeleted:    man/grid.text.Rd[m
+	[31mdeleted:    man/grid.xaxis.Rd[m
+	[31mdeleted:    man/grid.xspline.Rd[m
+	[31mdeleted:    man/grid.yaxis.Rd[m
+	[31mdeleted:    man/grobName.Rd[m
+	[31mdeleted:    man/grobWidth.Rd[m
+	[31mdeleted:    man/grobX.Rd[m
+	[31mdeleted:    man/legendGrob.Rd[m
+	[31mdeleted:    man/makeContent.Rd[m
+	[31mdeleted:    man/plotViewport.Rd[m
+	[31mdeleted:    man/resolveRasterSize.Rd[m
+	[31mdeleted:    man/showGrob.Rd[m
+	[31mdeleted:    man/showViewport.Rd[m
+	[31mdeleted:    man/stringWidth.Rd[m
+	[31mdeleted:    man/unit.Rd[m
+	[31mdeleted:    man/unit.c.Rd[m
+	[31mdeleted:    man/unit.length.Rd[m
+	[31mdeleted:    man/unit.pmin.Rd[m
+	[31mdeleted:    man/unit.rep.Rd[m
+	[31mdeleted:    man/valid.just.Rd[m
+	[31mdeleted:    man/validDetails.Rd[m
+	[31mdeleted:    man/viewport.Rd[m
+	[31mdeleted:    man/viewports.Rd[m
+	[31mdeleted:    man/vpPath.Rd[m
+	[31mdeleted:    man/widthDetails.Rd[m
+	[31mdeleted:    man/xDetails.Rd[m
+	[31mdeleted:    man/xsplinePoints.Rd[m
+	[31mdeleted:    src/Makefile.in[m
+	[31mdeleted:    src/Makefile.win[m
+	[31mdeleted:    vignettes/displaylist.Rnw[m
+	[31mdeleted:    vignettes/frame.Rnw[m
+	[31mdeleted:    vignettes/grid.Rnw[m
+	[31mdeleted:    vignettes/grid.Rnw-nolattice[m
+	[31mdeleted:    vignettes/grid.bib[m
+	[31mdeleted:    vignettes/grobs.Rnw[m
+	[31mdeleted:    vignettes/interactive.Rnw[m
+	[31mdeleted:    vignettes/locndimn.Rnw[m
+	[31mdeleted:    vignettes/moveline.Rnw[m
+	[31mdeleted:    vignettes/nonfinite.Rnw[m
+	[31mdeleted:    vignettes/plotexample.Rnw[m
+	[31mdeleted:    vignettes/rotated.Rnw[m
+	[31mdeleted:    vignettes/saveload.Rnw[m
+	[31mdeleted:    vignettes/sharing.Rnw[m
+	[31mdeleted:    vignettes/viewports.Rnw[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+	[31mgrid_1.1.tar.gz[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ brew install libgit2
+[32m==>[0m [1mInstalling dependencies for libgit2: [32mlibssh2[39m[0m
+[32m==>[0m [1mInstalling libgit2 dependency: [32mlibssh2[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libssh2-1.8.0.high_sierra.bottle.1.tar.[0m
+#################                                                         24.3%########################################################                  79.1%######################################################################## 100.0%
+[34m==>[0m [1mPouring libssh2-1.8.0.high_sierra.bottle.1.tar.gz[0m
+🍺  /usr/local/Cellar/libssh2/1.8.0: 182 files, 797.4KB
+[32m==>[0m [1mInstalling [32mlibgit2[39m[0m
+[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libgit2-0.27.2.high_sierra.bottle.1.tar[0m
+########                                                                  11.2%#################################                                         46.6%####################################################################      94.6%######################################################################## 100.0%
+[34m==>[0m [1mPouring libgit2-0.27.2.high_sierra.bottle.1.tar.gz[0m
+🍺  /usr/local/Cellar/libgit2/0.27.2: 106 files, 3.2MB
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git sa[Ktatus
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   DESCRIPTION[m
+	[31mdeleted:    Makefile.in[m
+	[31mdeleted:    Makefile.win[m
+	[31mmodified:   grid.Rproj[m
+	[31mdeleted:    man/Grid.Rd[m
+	[31mdeleted:    man/absolute.size.Rd[m
+	[31mdeleted:    man/arrow.Rd[m
+	[31mdeleted:    man/calcStringMetric.Rd[m
+	[31mdeleted:    man/current.viewport.Rd[m
+	[31mdeleted:    man/dataViewport.Rd[m
+	[31mdeleted:    man/depth.Rd[m
+	[31mdeleted:    man/deviceLoc.Rd[m
+	[31mdeleted:    man/drawDetails.Rd[m
+	[31mdeleted:    man/editDetails.Rd[m
+	[31mdeleted:    man/explode.Rd[m
+	[31mdeleted:    man/gEdit.Rd[m
+	[31mdeleted:    man/gPath.Rd[m
+	[31mdeleted:    man/getNames.Rd[m
+	[31mdeleted:    man/gpar.Rd[m
+	[31mdeleted:    man/grid-defunct.Rd[m
+	[31mdeleted:    man/grid-internal.Rd[m
+	[31mdeleted:    man/grid-package.Rd[m
+	[31mdeleted:    man/grid.DLapply.Rd[m
+	[31mdeleted:    man/grid.add.Rd[m
+	[31mdeleted:    man/grid.bezier.Rd[m
+	[31mdeleted:    man/grid.cap.Rd[m
+	[31mdeleted:    man/grid.circle.Rd[m
+	[31mdeleted:    man/grid.clip.Rd[m
+	[31mdeleted:    man/grid.convert.Rd[m
+	[31mdeleted:    man/grid.copy.Rd[m
+	[31mdeleted:    man/grid.curve.Rd[m
+	[31mdeleted:    man/grid.delay.Rd[m
+	[31mdeleted:    man/grid.display.list.Rd[m
+	[31mdeleted:    man/grid.draw.Rd[m
+	[31mdeleted:    man/grid.edit.Rd[m
+	[31mdeleted:    man/grid.force.Rd[m
+	[31mdeleted:    man/grid.frame.Rd[m
+	[31mdeleted:    man/grid.function.Rd[m
+	[31mdeleted:    man/grid.get.Rd[m
+	[31mdeleted:    man/grid.grab.Rd[m
+	[31mdeleted:    man/grid.grep.Rd[m
+	[31mdeleted:    man/grid.grill.Rd[m
+	[31mdeleted:    man/grid.grob.Rd[m
+	[31mdeleted:    man/grid.layout.Rd[m
+	[31mdeleted:    man/grid.lines.Rd[m
+	[31mdeleted:    man/grid.locator.Rd[m
+	[31mdeleted:    man/grid.ls.Rd[m
+	[31mdeleted:    man/grid.move.to.Rd[m
+	[31mdeleted:    man/grid.newpage.Rd[m
+	[31mdeleted:    man/grid.null.Rd[m
+	[31mdeleted:    man/grid.pack.Rd[m
+	[31mdeleted:    man/grid.path.Rd[m
+	[31mdeleted:    man/grid.place.Rd[m
+	[31mdeleted:    man/grid.plot.and.legend.Rd[m
+	[31mdeleted:    man/grid.points.Rd[m
+	[31mdeleted:    man/grid.polygon.Rd[m
+	[31mdeleted:    man/grid.pretty.Rd[m
+	[31mdeleted:    man/grid.raster.Rd[m
+	[31mdeleted:    man/grid.record.Rd[m
+	[31mdeleted:    man/grid.rect.Rd[m
+	[31mdeleted:    man/grid.refresh.Rd[m
+	[31mdeleted:    man/grid.remove.Rd[m
+	[31mdeleted:    man/grid.reorder.Rd[m
+	[31mdeleted:    man/grid.roundrect.Rd[m
+	[31mdeleted:    man/grid.segments.Rd[m
+	[31mdeleted:    man/grid.set.Rd[m
+	[31mdeleted:    man/grid.show.layout.Rd[m
+	[31mdeleted:    man/grid.show.viewport.Rd[m
+	[31mdeleted:    man/grid.text.Rd[m
+	[31mdeleted:    man/grid.xaxis.Rd[m
+	[31mdeleted:    man/grid.xspline.Rd[m
+	[31mdeleted:    man/grid.yaxis.Rd[m
+	[31mdeleted:    man/grobName.Rd[m
+	[31mdeleted:    man/grobWidth.Rd[m
+	[31mdeleted:    man/grobX.Rd[m
+	[31mdeleted:    man/legendGrob.Rd[m
+	[31mdeleted:    man/makeContent.Rd[m
+	[31mdeleted:    man/plotViewport.Rd[m
+	[31mdeleted:    man/resolveRasterSize.Rd[m
+	[31mdeleted:    man/showGrob.Rd[m
+	[31mdeleted:    man/showViewport.Rd[m
+	[31mdeleted:    man/stringWidth.Rd[m
+	[31mdeleted:    man/unit.Rd[m
+	[31mdeleted:    man/unit.c.Rd[m
+	[31mdeleted:    man/unit.length.Rd[m
+	[31mdeleted:    man/unit.pmin.Rd[m
+	[31mdeleted:    man/unit.rep.Rd[m
+	[31mdeleted:    man/valid.just.Rd[m
+	[31mdeleted:    man/validDetails.Rd[m
+	[31mdeleted:    man/viewport.Rd[m
+	[31mdeleted:    man/viewports.Rd[m
+	[31mdeleted:    man/vpPath.Rd[m
+	[31mdeleted:    man/widthDetails.Rd[m
+	[31mdeleted:    man/xDetails.Rd[m
+	[31mdeleted:    man/xsplinePoints.Rd[m
+	[31mdeleted:    src/Makefile.in[m
+	[31mdeleted:    src/Makefile.win[m
+	[31mdeleted:    vignettes/displaylist.Rnw[m
+	[31mdeleted:    vignettes/frame.Rnw[m
+	[31mdeleted:    vignettes/grid.Rnw[m
+	[31mdeleted:    vignettes/grid.Rnw-nolattice[m
+	[31mdeleted:    vignettes/grid.bib[m
+	[31mdeleted:    vignettes/grobs.Rnw[m
+	[31mdeleted:    vignettes/interactive.Rnw[m
+	[31mdeleted:    vignettes/locndimn.Rnw[m
+	[31mdeleted:    vignettes/moveline.Rnw[m
+	[31mdeleted:    vignettes/nonfinite.Rnw[m
+	[31mdeleted:    vignettes/plotexample.Rnw[m
+	[31mdeleted:    vignettes/rotated.Rnw[m
+	[31mdeleted:    vignettes/saveload.Rnw[m
+	[31mdeleted:    vignettes/sharing.Rnw[m
+	[31mdeleted:    vignettes/viewports.Rnw[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+	[31mREADME.md[m
+	[31minstall-base.R[m
+	[31minstall-grid.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git add -A
