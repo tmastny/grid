@@ -10,6 +10,8 @@ Overriding the base `grid` requires a special installation process. Use the foll
 source("install-grid.R")
 ```
 
+*NOTE*: This modifies the loaded `tools` package. Restart R to return the tools package to its proper state.
+
 # Modifications
 
 To reinstall `grid`, most of the relevant info was removed from `DESCRIPTION`. All make files were deleted, and the `man` and `vignettes` directories were removed. See the `r-source` `grid` for those files.

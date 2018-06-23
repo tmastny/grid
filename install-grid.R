@@ -1,4 +1,6 @@
+message("Modifying the tools package.")
 source("~/notes/grid-notes/install-base.R")
 tools:::.build_packages(".")
 tools:::.install_packages("grid_1.1.tar.gz")
 unlink("grid_1.1.tar.gz")
+message("Please restart R to restore tools.")

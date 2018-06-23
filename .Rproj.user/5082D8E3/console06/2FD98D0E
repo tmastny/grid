@@ -806,3 +806,147 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git add -A
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git commit -m "build ready grid"
+[master 1aa60d4] build ready grid
+ 122 files changed, 903 insertions(+), 10806 deletions(-)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .gitignore
+ delete mode 100644 Makefile.in
+ delete mode 100644 Makefile.win
+ create mode 100644 README.md
+ create mode 100644 install-base.R
+ create mode 100644 install-grid.R
+ delete mode 100644 man/Grid.Rd
+ delete mode 100644 man/absolute.size.Rd
+ delete mode 100644 man/arrow.Rd
+ delete mode 100644 man/calcStringMetric.Rd
+ delete mode 100644 man/current.viewport.Rd
+ delete mode 100644 man/dataViewport.Rd
+ delete mode 100644 man/depth.Rd
+ delete mode 100644 man/deviceLoc.Rd
+ delete mode 100644 man/drawDetails.Rd
+ delete mode 100644 man/editDetails.Rd
+ delete mode 100644 man/explode.Rd
+ delete mode 100644 man/gEdit.Rd
+ delete mode 100644 man/gPath.Rd
+ delete mode 100644 man/getNames.Rd
+ delete mode 100644 man/gpar.Rd
+ delete mode 100644 man/grid-defunct.Rd
+ delete mode 100644 man/grid-internal.Rd
+ delete mode 100644 man/grid-package.Rd
+ delete mode 100644 man/grid.DLapply.Rd
+ delete mode 100644 man/grid.add.Rd
+ delete mode 100644 man/grid.bezier.Rd
+ delete mode 100644 man/grid.cap.Rd
+ delete mode 100644 man/grid.circle.Rd
+ delete mode 100644 man/grid.clip.Rd
+ delete mode 100644 man/grid.convert.Rd
+ delete mode 100644 man/grid.copy.Rd
+ delete mode 100644 man/grid.curve.Rd
+ delete mode 100644 man/grid.delay.Rd
+ delete mode 100644 man/grid.display.list.Rd
+ delete mode 100644 man/grid.draw.Rd
+ delete mode 100644 man/grid.edit.Rd
+ delete mode 100644 man/grid.force.Rd
+ delete mode 100644 man/grid.frame.Rd
+ delete mode 100644 man/grid.function.Rd
+ delete mode 100644 man/grid.get.Rd
+ delete mode 100644 man/grid.grab.Rd
+ delete mode 100644 man/grid.grep.Rd
+ delete mode 100644 man/grid.grill.Rd
+ delete mode 100644 man/grid.grob.Rd
+ delete mode 100644 man/grid.layout.Rd
+ delete mode 100644 man/grid.lines.Rd
+ delete mode 100644 man/grid.locator.Rd
+ delete mode 100644 man/grid.ls.Rd
+ delete mode 100644 man/grid.move.to.Rd
+ delete mode 100644 man/grid.newpage.Rd
+ delete mode 100644 man/grid.null.Rd
+ delete mode 100644 man/grid.pack.Rd
+ delete mode 100644 man/grid.path.Rd
+ delete mode 100644 man/grid.place.Rd
+ delete mode 100644 man/grid.plot.and.legend.Rd
+ delete mode 100644 man/grid.points.Rd
+ delete mode 100644 man/grid.polygon.Rd
+ delete mode 100644 man/grid.pretty.Rd
+ delete mode 100644 man/grid.raster.Rd
+ delete mode 100644 man/grid.record.Rd
+ delete mode 100644 man/grid.rect.Rd
+ delete mode 100644 man/grid.refresh.Rd
+ delete mode 100644 man/grid.remove.Rd
+ delete mode 100644 man/grid.reorder.Rd
+ delete mode 100644 man/grid.roundrect.Rd
+ delete mode 100644 man/grid.segments.Rd
+ delete mode 100644 man/grid.set.Rd
+ delete mode 100644 man/grid.show.layout.Rd
+ delete mode 100644 man/grid.show.viewport.Rd
+ delete mode 100644 man/grid.text.Rd
+ delete mode 100644 man/grid.xaxis.Rd
+ delete mode 100644 man/grid.xspline.Rd
+ delete mode 100644 man/grid.yaxis.Rd
+ delete mode 100644 man/grobName.Rd
+ delete mode 100644 man/grobWidth.Rd
+ delete mode 100644 man/grobX.Rd
+ delete mode 100644 man/legendGrob.Rd
+ delete mode 100644 man/makeContent.Rd
+ delete mode 100644 man/plotViewport.Rd
+ delete mode 100644 man/resolveRasterSize.Rd
+ delete mode 100644 man/showGrob.Rd
+ delete mode 100644 man/showViewport.Rd
+ delete mode 100644 man/stringWidth.Rd
+ delete mode 100644 man/unit.Rd
+ delete mode 100644 man/unit.c.Rd
+ delete mode 100644 man/unit.length.Rd
+ delete mode 100644 man/unit.pmin.Rd
+ delete mode 100644 man/unit.rep.Rd
+ delete mode 100644 man/valid.just.Rd
+ delete mode 100644 man/validDetails.Rd
+ delete mode 100644 man/viewport.Rd
+ delete mode 100644 man/viewports.Rd
+ delete mode 100644 man/vpPath.Rd
+ delete mode 100644 man/widthDetails.Rd
+ delete mode 100644 man/xDetails.Rd
+ delete mode 100644 man/xsplinePoints.Rd
+ delete mode 100644 src/Makefile.in
+ delete mode 100644 src/Makefile.win
+ delete mode 100644 vignettes/displaylist.Rnw
+ delete mode 100644 vignettes/frame.Rnw
+ delete mode 100644 vignettes/grid.Rnw
+ delete mode 100644 vignettes/grid.Rnw-nolattice
+ delete mode 100644 vignettes/grid.bib
+ delete mode 100644 vignettes/grobs.Rnw
+ delete mode 100644 vignettes/interactive.Rnw
+ delete mode 100644 vignettes/locndimn.Rnw
+ delete mode 100644 vignettes/moveline.Rnw
+ delete mode 100644 vignettes/nonfinite.Rnw
+ delete mode 100644 vignettes/plotexample.Rnw
+ delete mode 100644 vignettes/rotated.Rnw
+ delete mode 100644 vignettes/saveload.Rnw
+ delete mode 100644 vignettes/sharing.Rnw
+ delete mode 100644 vignettes/viewports.Rnw
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git remote add origin https://github.com/tmastny/grid.git
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git push -u origin master
+Counting objects: 228, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/221)   Compressing objects:   1% (3/221)   Compressing objects:   2% (5/221)   Compressing objects:   3% (7/221)   Compressing objects:   4% (9/221)   Compressing objects:   5% (12/221)   Compressing objects:   6% (14/221)   Compressing objects:   7% (16/221)   Compressing objects:   8% (18/221)   Compressing objects:   9% (20/221)   Compressing objects:  10% (23/221)   Compressing objects:  11% (25/221)   Compressing objects:  12% (27/221)   Compressing objects:  13% (29/221)   Compressing objects:  14% (31/221)   Compressing objects:  15% (34/221)   Compressing objects:  16% (36/221)   Compressing objects:  17% (38/221)   Compressing objects:  18% (40/221)   Compressing objects:  19% (42/221)   Compressing objects:  20% (45/221)   Compressing objects:  21% (47/221)   Compressing objects:  22% (49/221)   Compressing objects:  23% (51/221)   Compressing objects:  24% (54/221)   Compressing objects:  25% (56/221)   Compressing objects:  26% (58/221)   Compressing objects:  27% (60/221)   Compressing objects:  28% (62/221)   Compressing objects:  29% (65/221)   Compressing objects:  30% (67/221)   Compressing objects:  31% (69/221)   Compressing objects:  32% (71/221)   Compressing objects:  33% (73/221)   Compressing objects:  34% (76/221)   Compressing objects:  35% (78/221)   Compressing objects:  36% (80/221)   Compressing objects:  37% (82/221)   Compressing objects:  38% (84/221)   Compressing objects:  39% (87/221)   Compressing objects:  40% (89/221)   Compressing objects:  41% (91/221)   Compressing objects:  42% (93/221)   Compressing objects:  43% (96/221)   Compressing objects:  44% (98/221)   Compressing objects:  45% (100/221)   Compressing objects:  46% (102/221)   Compressing objects:  47% (104/221)   Compressing objects:  48% (107/221)   Compressing objects:  49% (109/221)   Compressing objects:  50% (111/221)   Compressing objects:  51% (113/221)   Compressing objects:  52% (115/221)   Compressing objects:  53% (118/221)   Compressing objects:  54% (120/221)   Compressing objects:  55% (122/221)   Compressing objects:  56% (124/221)   Compressing objects:  57% (126/221)   Compressing objects:  58% (129/221)   Compressing objects:  59% (131/221)   Compressing objects:  60% (133/221)   Compressing objects:  61% (135/221)   Compressing objects:  62% (138/221)   Compressing objects:  63% (140/221)   Compressing objects:  64% (142/221)   Compressing objects:  65% (144/221)   Compressing objects:  66% (146/221)   Compressing objects:  67% (149/221)   Compressing objects:  68% (151/221)   Compressing objects:  69% (153/221)   Compressing objects:  70% (155/221)   Compressing objects:  71% (157/221)   Compressing objects:  72% (160/221)   Compressing objects:  73% (162/221)   Compressing objects:  74% (164/221)   Compressing objects:  75% (166/221)   Compressing objects:  76% (168/221)   Compressing objects:  77% (171/221)   Compressing objects:  78% (173/221)   Compressing objects:  79% (175/221)   Compressing objects:  80% (177/221)   Compressing objects:  81% (180/221)   Compressing objects:  82% (182/221)   Compressing objects:  83% (184/221)   Compressing objects:  84% (186/221)   Compressing objects:  85% (188/221)   Compressing objects:  86% (191/221)   Compressing objects:  87% (193/221)   Compressing objects:  88% (195/221)   Compressing objects:  89% (197/221)   Compressing objects:  90% (199/221)   Compressing objects:  91% (202/221)   Compressing objects:  92% (204/221)   Compressing objects:  93% (206/221)   Compressing objects:  94% (208/221)   Compressing objects:  95% (210/221)   Compressing objects:  96% (213/221)   Compressing objects:  97% (215/221)   Compressing objects:  98% (217/221)   Compressing objects:  99% (219/221)   Compressing objects: 100% (221/221)   Compressing objects: 100% (221/221), done.
+Writing objects:   0% (1/228)   Writing objects:   1% (3/228)   Writing objects:   2% (5/228)   Writing objects:   3% (7/228)   Writing objects:   4% (11/228)   Writing objects:   5% (12/228)   Writing objects:   6% (14/228)   Writing objects:   7% (16/228)   Writing objects:   8% (19/228)   Writing objects:   9% (22/228)   Writing objects:  10% (23/228)   Writing objects:  11% (26/228)   Writing objects:  12% (28/228)   Writing objects:  13% (30/228)   Writing objects:  14% (32/228)   Writing objects:  15% (35/228)   Writing objects:  16% (37/228)   Writing objects:  17% (39/228)   Writing objects:  18% (42/228)   Writing objects:  19% (44/228)   Writing objects:  20% (46/228)   Writing objects:  21% (48/228)   Writing objects:  22% (51/228)   Writing objects:  23% (53/228)   Writing objects:  24% (55/228)   Writing objects:  25% (57/228)   Writing objects:  26% (60/228)   Writing objects:  27% (62/228)   Writing objects:  28% (64/228)   Writing objects:  29% (67/228)   Writing objects:  30% (69/228)   Writing objects:  31% (71/228)   Writing objects:  32% (73/228)   Writing objects:  33% (77/228)   Writing objects:  34% (78/228)   Writing objects:  35% (80/228)   Writing objects:  36% (83/228)   Writing objects:  37% (86/228)   Writing objects:  39% (90/228)   Writing objects:  40% (92/228)   Writing objects:  41% (94/228)   Writing objects:  42% (96/228)   Writing objects:  43% (99/228)   Writing objects:  44% (101/228)   Writing objects:  45% (103/228)   Writing objects:  46% (105/228)   Writing objects:  47% (108/228)   Writing objects:  48% (110/228)   Writing objects:  49% (112/228)   Writing objects:  50% (114/228)   Writing objects:  51% (117/228)   Writing objects:  52% (119/228)   Writing objects:  53% (121/228)   Writing objects:  54% (124/228)   Writing objects:  55% (126/228)   Writing objects:  56% (128/228)   Writing objects:  57% (130/228)   Writing objects:  58% (134/228)   Writing objects:  59% (135/228)   Writing objects:  60% (137/228)   Writing objects:  61% (140/228)   Writing objects:  62% (142/228)   Writing objects:  63% (144/228)   Writing objects:  64% (146/228)   Writing objects:  65% (149/228)   Writing objects:  66% (151/228)   Writing objects:  67% (153/228)   Writing objects:  68% (156/228)   Writing objects:  69% (158/228)   Writing objects:  70% (161/228)   Writing objects:  71% (162/228)   Writing objects:  72% (165/228)   Writing objects:  73% (167/228)   Writing objects:  74% (169/228)   Writing objects:  75% (171/228)   Writing objects:  76% (174/228)   Writing objects:  77% (176/228)   Writing objects:  78% (178/228)   Writing objects:  79% (181/228)   Writing objects:  80% (183/228)   Writing objects:  81% (185/228)   Writing objects:  82% (188/228)   Writing objects:  83% (190/228)   Writing objects:  84% (192/228)   Writing objects:  85% (194/228)   Writing objects:  86% (197/228)   Writing objects:  87% (199/228)   Writing objects:  88% (201/228)   Writing objects:  89% (203/228)   Writing objects:  90% (206/228)   Writing objects:  91% (208/228)   Writing objects:  92% (210/228)   Writing objects:  93% (213/228)   Writing objects:  94% (215/228)   Writing objects:  95% (217/228)   Writing objects:  96% (219/228)   Writing objects:  97% (222/228)   Writing objects:  98% (224/228)   Writing objects:  99% (226/228)   Writing objects: 100% (228/228)   Writing objects: 100% (228/228), 370.24 KiB | 2.19 MiB/s, done.
+Total 228 (delta 32), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/32)   [Kremote: Resolving deltas:   3% (1/32)   [Kremote: Resolving deltas:   6% (2/32)   [Kremote: Resolving deltas:   9% (3/32)   [Kremote: Resolving deltas:  12% (4/32)   [Kremote: Resolving deltas:  15% (5/32)   [Kremote: Resolving deltas:  21% (7/32)   [Kremote: Resolving deltas:  25% (8/32)   [Kremote: Resolving deltas:  28% (9/32)   [Kremote: Resolving deltas:  31% (10/32)   [Kremote: Resolving deltas:  34% (11/32)   [Kremote: Resolving deltas:  46% (15/32)   [Kremote: Resolving deltas:  56% (18/32)   [Kremote: Resolving deltas:  71% (23/32)   [Kremote: Resolving deltas:  75% (24/32)   [Kremote: Resolving deltas:  78% (25/32)   [Kremote: Resolving deltas:  81% (26/32)   [Kremote: Resolving deltas:  84% (27/32)   [Kremote: Resolving deltas:  90% (29/32)   [Kremote: Resolving deltas:  93% (30/32)   [Kremote: Resolving deltas:  96% (31/32)   [Kremote: Resolving deltas: 100% (32/32)   [Kremote: Resolving deltas: 100% (32/32), done.[K
+To https://github.com/tmastny/grid.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
+	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
+	[31mmodified:   README.md[m
+	[31mmodified:   install-grid.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git add -A
