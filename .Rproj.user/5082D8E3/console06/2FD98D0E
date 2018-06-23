@@ -1,978 +1,0 @@
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[33;1mgrid[m$ [K[33;1mgrid[m$ wc -[K-l ($[K[K$(ls -l R[K[K[K[KR)
-wc: components.R: open: No such file or directory
-wc: curve.R: open: No such file or directory
-wc: debug.R: open: No such file or directory
-wc: edit.R: open: No such file or directory
-wc: frames.R: open: No such file or directory
-wc: function.R: open: No such file or directory
-wc: gpar.R: open: No such file or directory
-wc: grab.R: open: No such file or directory
-wc: grid.R: open: No such file or directory
-wc: grob.R: open: No such file or directory
-wc: highlevel.R: open: No such file or directory
-wc: interactive.R: open: No such file or directory
-wc: just.R: open: No such file or directory
-wc: layout.R: open: No such file or directory
-wc: ls.R: open: No such file or directory
-wc: metric.R: open: No such file or directory
-wc: origin.R: open: No such file or directory
-wc: primitives.R: open: No such file or directory
-wc: roundRect.R: open: No such file or directory
-wc: size.R: open: No such file or directory
-wc: unit.R: open: No such file or directory
-wc: util.R: open: No such file or directory
-wc: viewport.R: open: No such file or directory
-wc: zzz.R: open: No such file or directory
-       0 total
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ ls
-DESCRIPTION.in Makefile.win   [1m[36mR[39;49m[0m              [1m[36minst[39;49m[0m           [1m[36mpo[39;49m[0m             [1m[36mtests[39;49m[0m
-Makefile.in    NAMESPACE      grid.Rproj     [1m[36mman[39;49m[0m            [1m[36msrc[39;49m[0m            [1m[36mvignettes[39;49m[0m
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ cd R
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/R]0;~/rpackages/grid/R[33;1mR[m$ wc -l $(ls)
-     337 components.R
-     535 curve.R
-     449 debug.R
-      74 edit.R
-     476 frames.R
-     103 function.R
-     264 gpar.R
-     241 grab.R
-     539 grid.R
-    2270 grob.R
-     419 highlevel.R
-      34 interactive.R
-     110 just.R
-     164 layout.R
-     887 ls.R
-      14 metric.R
-      74 origin.R
-    1680 primitives.R
-     162 roundRect.R
-     133 size.R
-     863 unit.R
-      47 util.R
-     412 viewport.R
-      68 zzz.R
-   10355 total
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/R]0;~/rpackages/grid/R[33;1mR[m$ wc[K[Kwc[K[Kwc[K[Kcd ..
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ cd src/
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ wc -l$[K $(ls)
-      55 Makefile.in
-      42 Makefile.win
-     346 gpar.c
-       3 grid-win.def
-    3791 grid.c
-     641 grid.h
-     128 just.c
-     648 layout.c
-     154 matrix.c
-     101 register.c
-     430 state.c
-    1920 unit.c
-     288 util.c
-     395 viewport.c
-    8942 total
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ ls | wc -l
-      14
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ R
-[?1034h> [1m
-[0m> [1m
-[0m> quit)[K()
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ git init
-Initialized empty Git repository in /Users/Tim/rpackages/grid/src/.git/
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[32m[master][0m [33;1msrc[m$ rm r[K-rf .git
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ cd ..
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ git init
-Initialized empty Git repository in /Users/Tim/rpackages/grid/.git/
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ mv DESCRIPTION.in DESCRIPTION.in [K[K[K[K
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ ls
-DESCRIPTION  Makefile.win [1m[36mR[39;49m[0m            [1m[36minst[39;49m[0m         [1m[36mpo[39;49m[0m           [1m[36mtests[39;49m[0m
-Makefile.in  NAMESPACE    grid.Rproj   [1m[36mman[39;49m[0m          [1m[36msrc[39;49m[0m          [1m[36mvignettes[39;49m[0m
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ gits[K stau[Ktus
-On branch master
-
-No commits yet
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rproj.user/[m
-	[31mDESCRIPTION[m
-	[31mMakefile.in[m
-	[31mMakefile.win[m
-	[31mNAMESPACE[m
-	[31mR/[m
-	[31mgrid.Rproj[m
-	[31minst/[m
-	[31mman/[m
-	[31mpo/[m
-	[31msrc/[m
-	[31mtests/[m
-	[31mvignettes/[m
-
-nothing added to commit but untracked files present (use "git add" to track)
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git add -A
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git init[K[K[K[Kcommit -m "ii[Knitial commit"
-[master (root-commit) 2e808c2] initial commit
- 220 files changed, 48349 insertions(+)
- create mode 100644 .Rproj.user/5082D8E3/console06/2FD98D0E
- create mode 100644 .Rproj.user/5082D8E3/console06/2FD98D0E.env
- create mode 100644 .Rproj.user/5082D8E3/console06/INDEX001
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/129F1498
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/22B56A82
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/3354C7D6
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/3728B3F1
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/5532B5B8
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/5F07B189
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/861A5FA6
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/86DED3C
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/9EB3F436
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/A00E9408
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/A28125D3
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/A61956D3
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/B9601DCB
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/BF37F23D
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/C535307B
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/EA5D19E9
- create mode 100644 .Rproj.user/5082D8E3/sources/prop/INDEX
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/14CFF33D-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/18218433-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/1A3D29B5-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/1CA7D9E5-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/1EE96B00-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/38D4E666-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/4060062-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/5C6C65A1-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/7433F9BA-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/87B853DD-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/8A3D7365-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/8CE4CE6-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/8D48774B-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/9C92E17D-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/9D87274C-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/CED59852-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/D84DBF2-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/E1A3B155-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/E5AB9403-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/F288442F-contents
- create mode 100644 .Rproj.user/5082D8E3/sources/s-A74DFE2F/lock_file
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 DESCRIPTION
- create mode 100644 Makefile.in
- create mode 100644 Makefile.win
- create mode 100644 NAMESPACE
- create mode 100644 R/components.R
- create mode 100644 R/curve.R
- create mode 100644 R/debug.R
- create mode 100644 R/edit.R
- create mode 100644 R/frames.R
- create mode 100644 R/function.R
- create mode 100644 R/gpar.R
- create mode 100644 R/grab.R
- create mode 100644 R/grid.R
- create mode 100644 R/grob.R
- create mode 100644 R/highlevel.R
- create mode 100644 R/interactive.R
- create mode 100644 R/just.R
- create mode 100644 R/layout.R
- create mode 100644 R/ls.R
- create mode 100644 R/metric.R
- create mode 100644 R/origin.R
- create mode 100644 R/primitives.R
- create mode 100644 R/roundRect.R
- create mode 100644 R/size.R
- create mode 100644 R/unit.R
- create mode 100644 R/util.R
- create mode 100644 R/viewport.R
- create mode 100644 R/zzz.R
- create mode 100644 grid.Rproj
- create mode 100644 inst/doc/DivByZero.txt
- create mode 100644 inst/doc/changes.txt
- create mode 100644 man/Grid.Rd
- create mode 100644 man/absolute.size.Rd
- create mode 100644 man/arrow.Rd
- create mode 100644 man/calcStringMetric.Rd
- create mode 100644 man/current.viewport.Rd
- create mode 100644 man/dataViewport.Rd
- create mode 100644 man/depth.Rd
- create mode 100644 man/deviceLoc.Rd
- create mode 100644 man/drawDetails.Rd
- create mode 100644 man/editDetails.Rd
- create mode 100644 man/explode.Rd
- create mode 100644 man/gEdit.Rd
- create mode 100644 man/gPath.Rd
- create mode 100644 man/getNames.Rd
- create mode 100644 man/gpar.Rd
- create mode 100644 man/grid-defunct.Rd
- create mode 100644 man/grid-internal.Rd
- create mode 100644 man/grid-package.Rd
- create mode 100644 man/grid.DLapply.Rd
- create mode 100644 man/grid.add.Rd
- create mode 100644 man/grid.bezier.Rd
- create mode 100644 man/grid.cap.Rd
- create mode 100644 man/grid.circle.Rd
- create mode 100644 man/grid.clip.Rd
- create mode 100644 man/grid.convert.Rd
- create mode 100644 man/grid.copy.Rd
- create mode 100644 man/grid.curve.Rd
- create mode 100644 man/grid.delay.Rd
- create mode 100644 man/grid.display.list.Rd
- create mode 100644 man/grid.draw.Rd
- create mode 100644 man/grid.edit.Rd
- create mode 100644 man/grid.force.Rd
- create mode 100644 man/grid.frame.Rd
- create mode 100644 man/grid.function.Rd
- create mode 100644 man/grid.get.Rd
- create mode 100644 man/grid.grab.Rd
- create mode 100644 man/grid.grep.Rd
- create mode 100644 man/grid.grill.Rd
- create mode 100644 man/grid.grob.Rd
- create mode 100644 man/grid.layout.Rd
- create mode 100644 man/grid.lines.Rd
- create mode 100644 man/grid.locator.Rd
- create mode 100644 man/grid.ls.Rd
- create mode 100644 man/grid.move.to.Rd
- create mode 100644 man/grid.newpage.Rd
- create mode 100644 man/grid.null.Rd
- create mode 100644 man/grid.pack.Rd
- create mode 100644 man/grid.path.Rd
- create mode 100644 man/grid.place.Rd
- create mode 100644 man/grid.plot.and.legend.Rd
- create mode 100644 man/grid.points.Rd
- create mode 100644 man/grid.polygon.Rd
- create mode 100644 man/grid.pretty.Rd
- create mode 100644 man/grid.raster.Rd
- create mode 100644 man/grid.record.Rd
- create mode 100644 man/grid.rect.Rd
- create mode 100644 man/grid.refresh.Rd
- create mode 100644 man/grid.remove.Rd
- create mode 100644 man/grid.reorder.Rd
- create mode 100644 man/grid.roundrect.Rd
- create mode 100644 man/grid.segments.Rd
- create mode 100644 man/grid.set.Rd
- create mode 100644 man/grid.show.layout.Rd
- create mode 100644 man/grid.show.viewport.Rd
- create mode 100644 man/grid.text.Rd
- create mode 100644 man/grid.xaxis.Rd
- create mode 100644 man/grid.xspline.Rd
- create mode 100644 man/grid.yaxis.Rd
- create mode 100644 man/grobName.Rd
- create mode 100644 man/grobWidth.Rd
- create mode 100644 man/grobX.Rd
- create mode 100644 man/legendGrob.Rd
- create mode 100644 man/makeContent.Rd
- create mode 100644 man/plotViewport.Rd
- create mode 100644 man/resolveRasterSize.Rd
- create mode 100644 man/showGrob.Rd
- create mode 100644 man/showViewport.Rd
- create mode 100644 man/stringWidth.Rd
- create mode 100644 man/unit.Rd
- create mode 100644 man/unit.c.Rd
- create mode 100644 man/unit.length.Rd
- create mode 100644 man/unit.pmin.Rd
- create mode 100644 man/unit.rep.Rd
- create mode 100644 man/valid.just.Rd
- create mode 100644 man/validDetails.Rd
- create mode 100644 man/viewport.Rd
- create mode 100644 man/viewports.Rd
- create mode 100644 man/vpPath.Rd
- create mode 100644 man/widthDetails.Rd
- create mode 100644 man/xDetails.Rd
- create mode 100644 man/xsplinePoints.Rd
- create mode 100644 po/R-da.po
- create mode 100644 po/R-de.po
- create mode 100644 po/R-fr.po
- create mode 100644 po/R-grid.pot
- create mode 100644 po/R-ja.po
- create mode 100644 po/R-ko.po
- create mode 100644 po/R-pl.po
- create mode 100644 po/R-pt_BR.po
- create mode 100644 po/R-ru.po
- create mode 100644 po/R-zh_CN.po
- create mode 100644 po/da.po
- create mode 100644 po/de.po
- create mode 100644 po/fr.po
- create mode 100644 po/grid.pot
- create mode 100644 po/it.po
- create mode 100644 po/ja.po
- create mode 100644 po/ko.po
- create mode 100644 po/pl.po
- create mode 100644 po/pt_BR.po
- create mode 100644 po/ru.po
- create mode 100644 po/zh_CN.po
- create mode 100644 src/Makefile.in
- create mode 100644 src/Makefile.win
- create mode 100644 src/gpar.c
- create mode 100644 src/grid-win.def
- create mode 100644 src/grid.c
- create mode 100644 src/grid.h
- create mode 100644 src/just.c
- create mode 100644 src/layout.c
- create mode 100644 src/matrix.c
- create mode 100644 src/register.c
- create mode 100644 src/state.c
- create mode 100644 src/unit.c
- create mode 100644 src/util.c
- create mode 100644 src/viewport.c
- create mode 100644 tests/bugs.R
- create mode 100644 tests/reg.R
- create mode 100644 tests/testls.R
- create mode 100644 tests/testls.Rout.save
- create mode 100644 tests/units.R
- create mode 100644 vignettes/displaylist.Rnw
- create mode 100644 vignettes/frame.Rnw
- create mode 100644 vignettes/grid.Rnw
- create mode 100644 vignettes/grid.Rnw-nolattice
- create mode 100644 vignettes/grid.bib
- create mode 100644 vignettes/grobs.Rnw
- create mode 100644 vignettes/interactive.Rnw
- create mode 100644 vignettes/locndimn.Rnw
- create mode 100644 vignettes/moveline.Rnw
- create mode 100644 vignettes/nonfinite.Rnw
- create mode 100644 vignettes/plotexample.Rnw
- create mode 100644 vignettes/rotated.Rnw
- create mode 100644 vignettes/saveload.Rnw
- create mode 100644 vignettes/sharing.Rnw
- create mode 100644 vignettes/viewports.Rnw
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git ceh[K[Kheckout Mman/
-Grid.Rd                  grid.force.Rd            grid.show.layout.Rd
-absolute.size.Rd         grid.frame.Rd            grid.show.viewport.Rd
-arrow.Rd                 grid.function.Rd         grid.text.Rd
-calcStringMetric.Rd      grid.get.Rd              grid.xaxis.Rd
-current.viewport.Rd      grid.grab.Rd             grid.xspline.Rd
-dataViewport.Rd          grid.grep.Rd             grid.yaxis.Rd
-depth.Rd                 grid.grill.Rd            grobName.Rd
-deviceLoc.Rd             grid.grob.Rd             grobWidth.Rd
-drawDetails.Rd           grid.layout.Rd           grobX.Rd
-editDetails.Rd           grid.lines.Rd            legendGrob.Rd
-explode.Rd               grid.locator.Rd          makeContent.Rd
-gEdit.Rd                 grid.ls.Rd               plotViewport.Rd
-gPath.Rd                 grid.move.to.Rd          resolveRasterSize.Rd
-getNames.Rd              grid.newpage.Rd          showGrob.Rd
-gpar.Rd                  grid.null.Rd             showViewport.Rd
-grid-defunct.Rd          grid.pack.Rd             stringWidth.Rd
-grid-internal.Rd         grid.path.Rd             unit.Rd
-grid-package.Rd          grid.place.Rd            unit.c.Rd
-grid.DLapply.Rd          grid.plot.and.legend.Rd  unit.length.Rd
-grid.add.Rd              grid.points.Rd           unit.pmin.Rd
-grid.bezier.Rd           grid.polygon.Rd          unit.rep.Rd
-grid.cap.Rd              grid.pretty.Rd           valid.just.Rd
-grid.circle.Rd           grid.raster.Rd           validDetails.Rd
-grid.clip.Rd             grid.record.Rd           viewport.Rd
-grid.convert.Rd          grid.rect.Rd             viewports.Rd
-grid.copy.Rd             grid.refresh.Rd          vpPath.Rd
-grid.curve.Rd            grid.remove.Rd           widthDetails.Rd
-grid.delay.Rd            grid.reorder.Rd          xDetails.Rd
-grid.display.list.Rd     grid.roundrect.Rd        xsplinePoints.Rd
-grid.draw.Rd             grid.segments.Rd         
---More--[K[32m[master][0m [33;1mgrid[m$ git checkout man/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[32m[master][0m [33;1mgrid[m$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/861A5FA6[m
-	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mdeleted:    Makefile.in[m
-	[31mdeleted:    Makefile.win[m
-	[31mmodified:   grid.Rproj[m
-	[31mdeleted:    src/Makefile.in[m
-	[31mdeleted:    src/Makefile.win[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rbuildignore[m
-	[31m.gitignore[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   DESCRIPTION[m
-	[31mdeleted:    Makefile.in[m
-	[31mdeleted:    Makefile.win[m
-	[31mmodified:   grid.Rproj[m
-	[31mdeleted:    man/Grid.Rd[m
-	[31mdeleted:    man/absolute.size.Rd[m
-	[31mdeleted:    man/arrow.Rd[m
-	[31mdeleted:    man/calcStringMetric.Rd[m
-	[31mdeleted:    man/current.viewport.Rd[m
-	[31mdeleted:    man/dataViewport.Rd[m
-	[31mdeleted:    man/depth.Rd[m
-	[31mdeleted:    man/deviceLoc.Rd[m
-	[31mdeleted:    man/drawDetails.Rd[m
-	[31mdeleted:    man/editDetails.Rd[m
-	[31mdeleted:    man/explode.Rd[m
-	[31mdeleted:    man/gEdit.Rd[m
-	[31mdeleted:    man/gPath.Rd[m
-	[31mdeleted:    man/getNames.Rd[m
-	[31mdeleted:    man/gpar.Rd[m
-	[31mdeleted:    man/grid-defunct.Rd[m
-	[31mdeleted:    man/grid-internal.Rd[m
-	[31mdeleted:    man/grid-package.Rd[m
-	[31mdeleted:    man/grid.DLapply.Rd[m
-	[31mdeleted:    man/grid.add.Rd[m
-	[31mdeleted:    man/grid.bezier.Rd[m
-	[31mdeleted:    man/grid.cap.Rd[m
-	[31mdeleted:    man/grid.circle.Rd[m
-	[31mdeleted:    man/grid.clip.Rd[m
-	[31mdeleted:    man/grid.convert.Rd[m
-	[31mdeleted:    man/grid.copy.Rd[m
-	[31mdeleted:    man/grid.curve.Rd[m
-	[31mdeleted:    man/grid.delay.Rd[m
-	[31mdeleted:    man/grid.display.list.Rd[m
-	[31mdeleted:    man/grid.draw.Rd[m
-	[31mdeleted:    man/grid.edit.Rd[m
-	[31mdeleted:    man/grid.force.Rd[m
-	[31mdeleted:    man/grid.frame.Rd[m
-	[31mdeleted:    man/grid.function.Rd[m
-	[31mdeleted:    man/grid.get.Rd[m
-	[31mdeleted:    man/grid.grab.Rd[m
-	[31mdeleted:    man/grid.grep.Rd[m
-	[31mdeleted:    man/grid.grill.Rd[m
-	[31mdeleted:    man/grid.grob.Rd[m
-	[31mdeleted:    man/grid.layout.Rd[m
-	[31mdeleted:    man/grid.lines.Rd[m
-	[31mdeleted:    man/grid.locator.Rd[m
-	[31mdeleted:    man/grid.ls.Rd[m
-	[31mdeleted:    man/grid.move.to.Rd[m
-	[31mdeleted:    man/grid.newpage.Rd[m
-	[31mdeleted:    man/grid.null.Rd[m
-	[31mdeleted:    man/grid.pack.Rd[m
-	[31mdeleted:    man/grid.path.Rd[m
-	[31mdeleted:    man/grid.place.Rd[m
-	[31mdeleted:    man/grid.plot.and.legend.Rd[m
-	[31mdeleted:    man/grid.points.Rd[m
-	[31mdeleted:    man/grid.polygon.Rd[m
-	[31mdeleted:    man/grid.pretty.Rd[m
-	[31mdeleted:    man/grid.raster.Rd[m
-	[31mdeleted:    man/grid.record.Rd[m
-	[31mdeleted:    man/grid.rect.Rd[m
-	[31mdeleted:    man/grid.refresh.Rd[m
-	[31mdeleted:    man/grid.remove.Rd[m
-	[31mdeleted:    man/grid.reorder.Rd[m
-	[31mdeleted:    man/grid.roundrect.Rd[m
-	[31mdeleted:    man/grid.segments.Rd[m
-	[31mdeleted:    man/grid.set.Rd[m
-	[31mdeleted:    man/grid.show.layout.Rd[m
-	[31mdeleted:    man/grid.show.viewport.Rd[m
-	[31mdeleted:    man/grid.text.Rd[m
-	[31mdeleted:    man/grid.xaxis.Rd[m
-	[31mdeleted:    man/grid.xspline.Rd[m
-	[31mdeleted:    man/grid.yaxis.Rd[m
-	[31mdeleted:    man/grobName.Rd[m
-	[31mdeleted:    man/grobWidth.Rd[m
-	[31mdeleted:    man/grobX.Rd[m
-	[31mdeleted:    man/legendGrob.Rd[m
-	[31mdeleted:    man/makeContent.Rd[m
-	[31mdeleted:    man/plotViewport.Rd[m
-	[31mdeleted:    man/resolveRasterSize.Rd[m
-	[31mdeleted:    man/showGrob.Rd[m
-	[31mdeleted:    man/showViewport.Rd[m
-	[31mdeleted:    man/stringWidth.Rd[m
-	[31mdeleted:    man/unit.Rd[m
-	[31mdeleted:    man/unit.c.Rd[m
-	[31mdeleted:    man/unit.length.Rd[m
-	[31mdeleted:    man/unit.pmin.Rd[m
-	[31mdeleted:    man/unit.rep.Rd[m
-	[31mdeleted:    man/valid.just.Rd[m
-	[31mdeleted:    man/validDetails.Rd[m
-	[31mdeleted:    man/viewport.Rd[m
-	[31mdeleted:    man/viewports.Rd[m
-	[31mdeleted:    man/vpPath.Rd[m
-	[31mdeleted:    man/widthDetails.Rd[m
-	[31mdeleted:    man/xDetails.Rd[m
-	[31mdeleted:    man/xsplinePoints.Rd[m
-	[31mdeleted:    src/Makefile.in[m
-	[31mdeleted:    src/Makefile.win[m
-	[31mdeleted:    vignettes/displaylist.Rnw[m
-	[31mdeleted:    vignettes/frame.Rnw[m
-	[31mdeleted:    vignettes/grid.Rnw[m
-	[31mdeleted:    vignettes/grid.Rnw-nolattice[m
-	[31mdeleted:    vignettes/grid.bib[m
-	[31mdeleted:    vignettes/grobs.Rnw[m
-	[31mdeleted:    vignettes/interactive.Rnw[m
-	[31mdeleted:    vignettes/locndimn.Rnw[m
-	[31mdeleted:    vignettes/moveline.Rnw[m
-	[31mdeleted:    vignettes/nonfinite.Rnw[m
-	[31mdeleted:    vignettes/plotexample.Rnw[m
-	[31mdeleted:    vignettes/rotated.Rnw[m
-	[31mdeleted:    vignettes/saveload.Rnw[m
-	[31mdeleted:    vignettes/sharing.Rnw[m
-	[31mdeleted:    vignettes/viewports.Rnw[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rbuildignore[m
-	[31m.gitignore[m
-	[31mgrid_1.1.tar.gz[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ mg[K[Kgit status
-On branch master
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   DESCRIPTION[m
-	[31mdeleted:    Makefile.in[m
-	[31mdeleted:    Makefile.win[m
-	[31mmodified:   grid.Rproj[m
-	[31mdeleted:    man/Grid.Rd[m
-	[31mdeleted:    man/absolute.size.Rd[m
-	[31mdeleted:    man/arrow.Rd[m
-	[31mdeleted:    man/calcStringMetric.Rd[m
-	[31mdeleted:    man/current.viewport.Rd[m
-	[31mdeleted:    man/dataViewport.Rd[m
-	[31mdeleted:    man/depth.Rd[m
-	[31mdeleted:    man/deviceLoc.Rd[m
-	[31mdeleted:    man/drawDetails.Rd[m
-	[31mdeleted:    man/editDetails.Rd[m
-	[31mdeleted:    man/explode.Rd[m
-	[31mdeleted:    man/gEdit.Rd[m
-	[31mdeleted:    man/gPath.Rd[m
-	[31mdeleted:    man/getNames.Rd[m
-	[31mdeleted:    man/gpar.Rd[m
-	[31mdeleted:    man/grid-defunct.Rd[m
-	[31mdeleted:    man/grid-internal.Rd[m
-	[31mdeleted:    man/grid-package.Rd[m
-	[31mdeleted:    man/grid.DLapply.Rd[m
-	[31mdeleted:    man/grid.add.Rd[m
-	[31mdeleted:    man/grid.bezier.Rd[m
-	[31mdeleted:    man/grid.cap.Rd[m
-	[31mdeleted:    man/grid.circle.Rd[m
-	[31mdeleted:    man/grid.clip.Rd[m
-	[31mdeleted:    man/grid.convert.Rd[m
-	[31mdeleted:    man/grid.copy.Rd[m
-	[31mdeleted:    man/grid.curve.Rd[m
-	[31mdeleted:    man/grid.delay.Rd[m
-	[31mdeleted:    man/grid.display.list.Rd[m
-	[31mdeleted:    man/grid.draw.Rd[m
-	[31mdeleted:    man/grid.edit.Rd[m
-	[31mdeleted:    man/grid.force.Rd[m
-	[31mdeleted:    man/grid.frame.Rd[m
-	[31mdeleted:    man/grid.function.Rd[m
-	[31mdeleted:    man/grid.get.Rd[m
-	[31mdeleted:    man/grid.grab.Rd[m
-	[31mdeleted:    man/grid.grep.Rd[m
-	[31mdeleted:    man/grid.grill.Rd[m
-	[31mdeleted:    man/grid.grob.Rd[m
-	[31mdeleted:    man/grid.layout.Rd[m
-	[31mdeleted:    man/grid.lines.Rd[m
-	[31mdeleted:    man/grid.locator.Rd[m
-	[31mdeleted:    man/grid.ls.Rd[m
-	[31mdeleted:    man/grid.move.to.Rd[m
-	[31mdeleted:    man/grid.newpage.Rd[m
-	[31mdeleted:    man/grid.null.Rd[m
-	[31mdeleted:    man/grid.pack.Rd[m
-	[31mdeleted:    man/grid.path.Rd[m
-	[31mdeleted:    man/grid.place.Rd[m
-	[31mdeleted:    man/grid.plot.and.legend.Rd[m
-	[31mdeleted:    man/grid.points.Rd[m
-	[31mdeleted:    man/grid.polygon.Rd[m
-	[31mdeleted:    man/grid.pretty.Rd[m
-	[31mdeleted:    man/grid.raster.Rd[m
-	[31mdeleted:    man/grid.record.Rd[m
-	[31mdeleted:    man/grid.rect.Rd[m
-	[31mdeleted:    man/grid.refresh.Rd[m
-	[31mdeleted:    man/grid.remove.Rd[m
-	[31mdeleted:    man/grid.reorder.Rd[m
-	[31mdeleted:    man/grid.roundrect.Rd[m
-	[31mdeleted:    man/grid.segments.Rd[m
-	[31mdeleted:    man/grid.set.Rd[m
-	[31mdeleted:    man/grid.show.layout.Rd[m
-	[31mdeleted:    man/grid.show.viewport.Rd[m
-	[31mdeleted:    man/grid.text.Rd[m
-	[31mdeleted:    man/grid.xaxis.Rd[m
-	[31mdeleted:    man/grid.xspline.Rd[m
-	[31mdeleted:    man/grid.yaxis.Rd[m
-	[31mdeleted:    man/grobName.Rd[m
-	[31mdeleted:    man/grobWidth.Rd[m
-	[31mdeleted:    man/grobX.Rd[m
-	[31mdeleted:    man/legendGrob.Rd[m
-	[31mdeleted:    man/makeContent.Rd[m
-	[31mdeleted:    man/plotViewport.Rd[m
-	[31mdeleted:    man/resolveRasterSize.Rd[m
-	[31mdeleted:    man/showGrob.Rd[m
-	[31mdeleted:    man/showViewport.Rd[m
-	[31mdeleted:    man/stringWidth.Rd[m
-	[31mdeleted:    man/unit.Rd[m
-	[31mdeleted:    man/unit.c.Rd[m
-	[31mdeleted:    man/unit.length.Rd[m
-	[31mdeleted:    man/unit.pmin.Rd[m
-	[31mdeleted:    man/unit.rep.Rd[m
-	[31mdeleted:    man/valid.just.Rd[m
-	[31mdeleted:    man/validDetails.Rd[m
-	[31mdeleted:    man/viewport.Rd[m
-	[31mdeleted:    man/viewports.Rd[m
-	[31mdeleted:    man/vpPath.Rd[m
-	[31mdeleted:    man/widthDetails.Rd[m
-	[31mdeleted:    man/xDetails.Rd[m
-	[31mdeleted:    man/xsplinePoints.Rd[m
-	[31mdeleted:    src/Makefile.in[m
-	[31mdeleted:    src/Makefile.win[m
-	[31mdeleted:    vignettes/displaylist.Rnw[m
-	[31mdeleted:    vignettes/frame.Rnw[m
-	[31mdeleted:    vignettes/grid.Rnw[m
-	[31mdeleted:    vignettes/grid.Rnw-nolattice[m
-	[31mdeleted:    vignettes/grid.bib[m
-	[31mdeleted:    vignettes/grobs.Rnw[m
-	[31mdeleted:    vignettes/interactive.Rnw[m
-	[31mdeleted:    vignettes/locndimn.Rnw[m
-	[31mdeleted:    vignettes/moveline.Rnw[m
-	[31mdeleted:    vignettes/nonfinite.Rnw[m
-	[31mdeleted:    vignettes/plotexample.Rnw[m
-	[31mdeleted:    vignettes/rotated.Rnw[m
-	[31mdeleted:    vignettes/saveload.Rnw[m
-	[31mdeleted:    vignettes/sharing.Rnw[m
-	[31mdeleted:    vignettes/viewports.Rnw[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rbuildignore[m
-	[31m.gitignore[m
-	[31mgrid_1.1.tar.gz[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ brew install libgit2
-[32m==>[0m [1mInstalling dependencies for libgit2: [32mlibssh2[39m[0m
-[32m==>[0m [1mInstalling libgit2 dependency: [32mlibssh2[39m[0m
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libssh2-1.8.0.high_sierra.bottle.1.tar.[0m
-#################                                                         24.3%########################################################                  79.1%######################################################################## 100.0%
-[34m==>[0m [1mPouring libssh2-1.8.0.high_sierra.bottle.1.tar.gz[0m
-🍺  /usr/local/Cellar/libssh2/1.8.0: 182 files, 797.4KB
-[32m==>[0m [1mInstalling [32mlibgit2[39m[0m
-[34m==>[0m [1mDownloading https://homebrew.bintray.com/bottles/libgit2-0.27.2.high_sierra.bottle.1.tar[0m
-########                                                                  11.2%#################################                                         46.6%####################################################################      94.6%######################################################################## 100.0%
-[34m==>[0m [1mPouring libgit2-0.27.2.high_sierra.bottle.1.tar.gz[0m
-🍺  /usr/local/Cellar/libgit2/0.27.2: 106 files, 3.2MB
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git sa[Ktatus
-On branch master
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/5082D8E3/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   DESCRIPTION[m
-	[31mdeleted:    Makefile.in[m
-	[31mdeleted:    Makefile.win[m
-	[31mmodified:   grid.Rproj[m
-	[31mdeleted:    man/Grid.Rd[m
-	[31mdeleted:    man/absolute.size.Rd[m
-	[31mdeleted:    man/arrow.Rd[m
-	[31mdeleted:    man/calcStringMetric.Rd[m
-	[31mdeleted:    man/current.viewport.Rd[m
-	[31mdeleted:    man/dataViewport.Rd[m
-	[31mdeleted:    man/depth.Rd[m
-	[31mdeleted:    man/deviceLoc.Rd[m
-	[31mdeleted:    man/drawDetails.Rd[m
-	[31mdeleted:    man/editDetails.Rd[m
-	[31mdeleted:    man/explode.Rd[m
-	[31mdeleted:    man/gEdit.Rd[m
-	[31mdeleted:    man/gPath.Rd[m
-	[31mdeleted:    man/getNames.Rd[m
-	[31mdeleted:    man/gpar.Rd[m
-	[31mdeleted:    man/grid-defunct.Rd[m
-	[31mdeleted:    man/grid-internal.Rd[m
-	[31mdeleted:    man/grid-package.Rd[m
-	[31mdeleted:    man/grid.DLapply.Rd[m
-	[31mdeleted:    man/grid.add.Rd[m
-	[31mdeleted:    man/grid.bezier.Rd[m
-	[31mdeleted:    man/grid.cap.Rd[m
-	[31mdeleted:    man/grid.circle.Rd[m
-	[31mdeleted:    man/grid.clip.Rd[m
-	[31mdeleted:    man/grid.convert.Rd[m
-	[31mdeleted:    man/grid.copy.Rd[m
-	[31mdeleted:    man/grid.curve.Rd[m
-	[31mdeleted:    man/grid.delay.Rd[m
-	[31mdeleted:    man/grid.display.list.Rd[m
-	[31mdeleted:    man/grid.draw.Rd[m
-	[31mdeleted:    man/grid.edit.Rd[m
-	[31mdeleted:    man/grid.force.Rd[m
-	[31mdeleted:    man/grid.frame.Rd[m
-	[31mdeleted:    man/grid.function.Rd[m
-	[31mdeleted:    man/grid.get.Rd[m
-	[31mdeleted:    man/grid.grab.Rd[m
-	[31mdeleted:    man/grid.grep.Rd[m
-	[31mdeleted:    man/grid.grill.Rd[m
-	[31mdeleted:    man/grid.grob.Rd[m
-	[31mdeleted:    man/grid.layout.Rd[m
-	[31mdeleted:    man/grid.lines.Rd[m
-	[31mdeleted:    man/grid.locator.Rd[m
-	[31mdeleted:    man/grid.ls.Rd[m
-	[31mdeleted:    man/grid.move.to.Rd[m
-	[31mdeleted:    man/grid.newpage.Rd[m
-	[31mdeleted:    man/grid.null.Rd[m
-	[31mdeleted:    man/grid.pack.Rd[m
-	[31mdeleted:    man/grid.path.Rd[m
-	[31mdeleted:    man/grid.place.Rd[m
-	[31mdeleted:    man/grid.plot.and.legend.Rd[m
-	[31mdeleted:    man/grid.points.Rd[m
-	[31mdeleted:    man/grid.polygon.Rd[m
-	[31mdeleted:    man/grid.pretty.Rd[m
-	[31mdeleted:    man/grid.raster.Rd[m
-	[31mdeleted:    man/grid.record.Rd[m
-	[31mdeleted:    man/grid.rect.Rd[m
-	[31mdeleted:    man/grid.refresh.Rd[m
-	[31mdeleted:    man/grid.remove.Rd[m
-	[31mdeleted:    man/grid.reorder.Rd[m
-	[31mdeleted:    man/grid.roundrect.Rd[m
-	[31mdeleted:    man/grid.segments.Rd[m
-	[31mdeleted:    man/grid.set.Rd[m
-	[31mdeleted:    man/grid.show.layout.Rd[m
-	[31mdeleted:    man/grid.show.viewport.Rd[m
-	[31mdeleted:    man/grid.text.Rd[m
-	[31mdeleted:    man/grid.xaxis.Rd[m
-	[31mdeleted:    man/grid.xspline.Rd[m
-	[31mdeleted:    man/grid.yaxis.Rd[m
-	[31mdeleted:    man/grobName.Rd[m
-	[31mdeleted:    man/grobWidth.Rd[m
-	[31mdeleted:    man/grobX.Rd[m
-	[31mdeleted:    man/legendGrob.Rd[m
-	[31mdeleted:    man/makeContent.Rd[m
-	[31mdeleted:    man/plotViewport.Rd[m
-	[31mdeleted:    man/resolveRasterSize.Rd[m
-	[31mdeleted:    man/showGrob.Rd[m
-	[31mdeleted:    man/showViewport.Rd[m
-	[31mdeleted:    man/stringWidth.Rd[m
-	[31mdeleted:    man/unit.Rd[m
-	[31mdeleted:    man/unit.c.Rd[m
-	[31mdeleted:    man/unit.length.Rd[m
-	[31mdeleted:    man/unit.pmin.Rd[m
-	[31mdeleted:    man/unit.rep.Rd[m
-	[31mdeleted:    man/valid.just.Rd[m
-	[31mdeleted:    man/validDetails.Rd[m
-	[31mdeleted:    man/viewport.Rd[m
-	[31mdeleted:    man/viewports.Rd[m
-	[31mdeleted:    man/vpPath.Rd[m
-	[31mdeleted:    man/widthDetails.Rd[m
-	[31mdeleted:    man/xDetails.Rd[m
-	[31mdeleted:    man/xsplinePoints.Rd[m
-	[31mdeleted:    src/Makefile.in[m
-	[31mdeleted:    src/Makefile.win[m
-	[31mdeleted:    vignettes/displaylist.Rnw[m
-	[31mdeleted:    vignettes/frame.Rnw[m
-	[31mdeleted:    vignettes/grid.Rnw[m
-	[31mdeleted:    vignettes/grid.Rnw-nolattice[m
-	[31mdeleted:    vignettes/grid.bib[m
-	[31mdeleted:    vignettes/grobs.Rnw[m
-	[31mdeleted:    vignettes/interactive.Rnw[m
-	[31mdeleted:    vignettes/locndimn.Rnw[m
-	[31mdeleted:    vignettes/moveline.Rnw[m
-	[31mdeleted:    vignettes/nonfinite.Rnw[m
-	[31mdeleted:    vignettes/plotexample.Rnw[m
-	[31mdeleted:    vignettes/rotated.Rnw[m
-	[31mdeleted:    vignettes/saveload.Rnw[m
-	[31mdeleted:    vignettes/sharing.Rnw[m
-	[31mdeleted:    vignettes/viewports.Rnw[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m.Rbuildignore[m
-	[31m.gitignore[m
-	[31mREADME.md[m
-	[31minstall-base.R[m
-	[31minstall-grid.R[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git add -A
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git commit -m "build ready grid"
-[master 1aa60d4] build ready grid
- 122 files changed, 903 insertions(+), 10806 deletions(-)
- create mode 100644 .Rbuildignore
- create mode 100644 .gitignore
- delete mode 100644 Makefile.in
- delete mode 100644 Makefile.win
- create mode 100644 README.md
- create mode 100644 install-base.R
- create mode 100644 install-grid.R
- delete mode 100644 man/Grid.Rd
- delete mode 100644 man/absolute.size.Rd
- delete mode 100644 man/arrow.Rd
- delete mode 100644 man/calcStringMetric.Rd
- delete mode 100644 man/current.viewport.Rd
- delete mode 100644 man/dataViewport.Rd
- delete mode 100644 man/depth.Rd
- delete mode 100644 man/deviceLoc.Rd
- delete mode 100644 man/drawDetails.Rd
- delete mode 100644 man/editDetails.Rd
- delete mode 100644 man/explode.Rd
- delete mode 100644 man/gEdit.Rd
- delete mode 100644 man/gPath.Rd
- delete mode 100644 man/getNames.Rd
- delete mode 100644 man/gpar.Rd
- delete mode 100644 man/grid-defunct.Rd
- delete mode 100644 man/grid-internal.Rd
- delete mode 100644 man/grid-package.Rd
- delete mode 100644 man/grid.DLapply.Rd
- delete mode 100644 man/grid.add.Rd
- delete mode 100644 man/grid.bezier.Rd
- delete mode 100644 man/grid.cap.Rd
- delete mode 100644 man/grid.circle.Rd
- delete mode 100644 man/grid.clip.Rd
- delete mode 100644 man/grid.convert.Rd
- delete mode 100644 man/grid.copy.Rd
- delete mode 100644 man/grid.curve.Rd
- delete mode 100644 man/grid.delay.Rd
- delete mode 100644 man/grid.display.list.Rd
- delete mode 100644 man/grid.draw.Rd
- delete mode 100644 man/grid.edit.Rd
- delete mode 100644 man/grid.force.Rd
- delete mode 100644 man/grid.frame.Rd
- delete mode 100644 man/grid.function.Rd
- delete mode 100644 man/grid.get.Rd
- delete mode 100644 man/grid.grab.Rd
- delete mode 100644 man/grid.grep.Rd
- delete mode 100644 man/grid.grill.Rd
- delete mode 100644 man/grid.grob.Rd
- delete mode 100644 man/grid.layout.Rd
- delete mode 100644 man/grid.lines.Rd
- delete mode 100644 man/grid.locator.Rd
- delete mode 100644 man/grid.ls.Rd
- delete mode 100644 man/grid.move.to.Rd
- delete mode 100644 man/grid.newpage.Rd
- delete mode 100644 man/grid.null.Rd
- delete mode 100644 man/grid.pack.Rd
- delete mode 100644 man/grid.path.Rd
- delete mode 100644 man/grid.place.Rd
- delete mode 100644 man/grid.plot.and.legend.Rd
- delete mode 100644 man/grid.points.Rd
- delete mode 100644 man/grid.polygon.Rd
- delete mode 100644 man/grid.pretty.Rd
- delete mode 100644 man/grid.raster.Rd
- delete mode 100644 man/grid.record.Rd
- delete mode 100644 man/grid.rect.Rd
- delete mode 100644 man/grid.refresh.Rd
- delete mode 100644 man/grid.remove.Rd
- delete mode 100644 man/grid.reorder.Rd
- delete mode 100644 man/grid.roundrect.Rd
- delete mode 100644 man/grid.segments.Rd
- delete mode 100644 man/grid.set.Rd
- delete mode 100644 man/grid.show.layout.Rd
- delete mode 100644 man/grid.show.viewport.Rd
- delete mode 100644 man/grid.text.Rd
- delete mode 100644 man/grid.xaxis.Rd
- delete mode 100644 man/grid.xspline.Rd
- delete mode 100644 man/grid.yaxis.Rd
- delete mode 100644 man/grobName.Rd
- delete mode 100644 man/grobWidth.Rd
- delete mode 100644 man/grobX.Rd
- delete mode 100644 man/legendGrob.Rd
- delete mode 100644 man/makeContent.Rd
- delete mode 100644 man/plotViewport.Rd
- delete mode 100644 man/resolveRasterSize.Rd
- delete mode 100644 man/showGrob.Rd
- delete mode 100644 man/showViewport.Rd
- delete mode 100644 man/stringWidth.Rd
- delete mode 100644 man/unit.Rd
- delete mode 100644 man/unit.c.Rd
- delete mode 100644 man/unit.length.Rd
- delete mode 100644 man/unit.pmin.Rd
- delete mode 100644 man/unit.rep.Rd
- delete mode 100644 man/valid.just.Rd
- delete mode 100644 man/validDetails.Rd
- delete mode 100644 man/viewport.Rd
- delete mode 100644 man/viewports.Rd
- delete mode 100644 man/vpPath.Rd
- delete mode 100644 man/widthDetails.Rd
- delete mode 100644 man/xDetails.Rd
- delete mode 100644 man/xsplinePoints.Rd
- delete mode 100644 src/Makefile.in
- delete mode 100644 src/Makefile.win
- delete mode 100644 vignettes/displaylist.Rnw
- delete mode 100644 vignettes/frame.Rnw
- delete mode 100644 vignettes/grid.Rnw
- delete mode 100644 vignettes/grid.Rnw-nolattice
- delete mode 100644 vignettes/grid.bib
- delete mode 100644 vignettes/grobs.Rnw
- delete mode 100644 vignettes/interactive.Rnw
- delete mode 100644 vignettes/locndimn.Rnw
- delete mode 100644 vignettes/moveline.Rnw
- delete mode 100644 vignettes/nonfinite.Rnw
- delete mode 100644 vignettes/plotexample.Rnw
- delete mode 100644 vignettes/rotated.Rnw
- delete mode 100644 vignettes/saveload.Rnw
- delete mode 100644 vignettes/sharing.Rnw
- delete mode 100644 vignettes/viewports.Rnw
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git remote add origin https://github.com/tmastny/grid.git
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git push -u origin master
-Counting objects: 228, done.
-Delta compression using up to 8 threads.
-Compressing objects:   0% (1/221)   Compressing objects:   1% (3/221)   Compressing objects:   2% (5/221)   Compressing objects:   3% (7/221)   Compressing objects:   4% (9/221)   Compressing objects:   5% (12/221)   Compressing objects:   6% (14/221)   Compressing objects:   7% (16/221)   Compressing objects:   8% (18/221)   Compressing objects:   9% (20/221)   Compressing objects:  10% (23/221)   Compressing objects:  11% (25/221)   Compressing objects:  12% (27/221)   Compressing objects:  13% (29/221)   Compressing objects:  14% (31/221)   Compressing objects:  15% (34/221)   Compressing objects:  16% (36/221)   Compressing objects:  17% (38/221)   Compressing objects:  18% (40/221)   Compressing objects:  19% (42/221)   Compressing objects:  20% (45/221)   Compressing objects:  21% (47/221)   Compressing objects:  22% (49/221)   Compressing objects:  23% (51/221)   Compressing objects:  24% (54/221)   Compressing objects:  25% (56/221)   Compressing objects:  26% (58/221)   Compressing objects:  27% (60/221)   Compressing objects:  28% (62/221)   Compressing objects:  29% (65/221)   Compressing objects:  30% (67/221)   Compressing objects:  31% (69/221)   Compressing objects:  32% (71/221)   Compressing objects:  33% (73/221)   Compressing objects:  34% (76/221)   Compressing objects:  35% (78/221)   Compressing objects:  36% (80/221)   Compressing objects:  37% (82/221)   Compressing objects:  38% (84/221)   Compressing objects:  39% (87/221)   Compressing objects:  40% (89/221)   Compressing objects:  41% (91/221)   Compressing objects:  42% (93/221)   Compressing objects:  43% (96/221)   Compressing objects:  44% (98/221)   Compressing objects:  45% (100/221)   Compressing objects:  46% (102/221)   Compressing objects:  47% (104/221)   Compressing objects:  48% (107/221)   Compressing objects:  49% (109/221)   Compressing objects:  50% (111/221)   Compressing objects:  51% (113/221)   Compressing objects:  52% (115/221)   Compressing objects:  53% (118/221)   Compressing objects:  54% (120/221)   Compressing objects:  55% (122/221)   Compressing objects:  56% (124/221)   Compressing objects:  57% (126/221)   Compressing objects:  58% (129/221)   Compressing objects:  59% (131/221)   Compressing objects:  60% (133/221)   Compressing objects:  61% (135/221)   Compressing objects:  62% (138/221)   Compressing objects:  63% (140/221)   Compressing objects:  64% (142/221)   Compressing objects:  65% (144/221)   Compressing objects:  66% (146/221)   Compressing objects:  67% (149/221)   Compressing objects:  68% (151/221)   Compressing objects:  69% (153/221)   Compressing objects:  70% (155/221)   Compressing objects:  71% (157/221)   Compressing objects:  72% (160/221)   Compressing objects:  73% (162/221)   Compressing objects:  74% (164/221)   Compressing objects:  75% (166/221)   Compressing objects:  76% (168/221)   Compressing objects:  77% (171/221)   Compressing objects:  78% (173/221)   Compressing objects:  79% (175/221)   Compressing objects:  80% (177/221)   Compressing objects:  81% (180/221)   Compressing objects:  82% (182/221)   Compressing objects:  83% (184/221)   Compressing objects:  84% (186/221)   Compressing objects:  85% (188/221)   Compressing objects:  86% (191/221)   Compressing objects:  87% (193/221)   Compressing objects:  88% (195/221)   Compressing objects:  89% (197/221)   Compressing objects:  90% (199/221)   Compressing objects:  91% (202/221)   Compressing objects:  92% (204/221)   Compressing objects:  93% (206/221)   Compressing objects:  94% (208/221)   Compressing objects:  95% (210/221)   Compressing objects:  96% (213/221)   Compressing objects:  97% (215/221)   Compressing objects:  98% (217/221)   Compressing objects:  99% (219/221)   Compressing objects: 100% (221/221)   Compressing objects: 100% (221/221), done.
-Writing objects:   0% (1/228)   Writing objects:   1% (3/228)   Writing objects:   2% (5/228)   Writing objects:   3% (7/228)   Writing objects:   4% (11/228)   Writing objects:   5% (12/228)   Writing objects:   6% (14/228)   Writing objects:   7% (16/228)   Writing objects:   8% (19/228)   Writing objects:   9% (22/228)   Writing objects:  10% (23/228)   Writing objects:  11% (26/228)   Writing objects:  12% (28/228)   Writing objects:  13% (30/228)   Writing objects:  14% (32/228)   Writing objects:  15% (35/228)   Writing objects:  16% (37/228)   Writing objects:  17% (39/228)   Writing objects:  18% (42/228)   Writing objects:  19% (44/228)   Writing objects:  20% (46/228)   Writing objects:  21% (48/228)   Writing objects:  22% (51/228)   Writing objects:  23% (53/228)   Writing objects:  24% (55/228)   Writing objects:  25% (57/228)   Writing objects:  26% (60/228)   Writing objects:  27% (62/228)   Writing objects:  28% (64/228)   Writing objects:  29% (67/228)   Writing objects:  30% (69/228)   Writing objects:  31% (71/228)   Writing objects:  32% (73/228)   Writing objects:  33% (77/228)   Writing objects:  34% (78/228)   Writing objects:  35% (80/228)   Writing objects:  36% (83/228)   Writing objects:  37% (86/228)   Writing objects:  39% (90/228)   Writing objects:  40% (92/228)   Writing objects:  41% (94/228)   Writing objects:  42% (96/228)   Writing objects:  43% (99/228)   Writing objects:  44% (101/228)   Writing objects:  45% (103/228)   Writing objects:  46% (105/228)   Writing objects:  47% (108/228)   Writing objects:  48% (110/228)   Writing objects:  49% (112/228)   Writing objects:  50% (114/228)   Writing objects:  51% (117/228)   Writing objects:  52% (119/228)   Writing objects:  53% (121/228)   Writing objects:  54% (124/228)   Writing objects:  55% (126/228)   Writing objects:  56% (128/228)   Writing objects:  57% (130/228)   Writing objects:  58% (134/228)   Writing objects:  59% (135/228)   Writing objects:  60% (137/228)   Writing objects:  61% (140/228)   Writing objects:  62% (142/228)   Writing objects:  63% (144/228)   Writing objects:  64% (146/228)   Writing objects:  65% (149/228)   Writing objects:  66% (151/228)   Writing objects:  67% (153/228)   Writing objects:  68% (156/228)   Writing objects:  69% (158/228)   Writing objects:  70% (161/228)   Writing objects:  71% (162/228)   Writing objects:  72% (165/228)   Writing objects:  73% (167/228)   Writing objects:  74% (169/228)   Writing objects:  75% (171/228)   Writing objects:  76% (174/228)   Writing objects:  77% (176/228)   Writing objects:  78% (178/228)   Writing objects:  79% (181/228)   Writing objects:  80% (183/228)   Writing objects:  81% (185/228)   Writing objects:  82% (188/228)   Writing objects:  83% (190/228)   Writing objects:  84% (192/228)   Writing objects:  85% (194/228)   Writing objects:  86% (197/228)   Writing objects:  87% (199/228)   Writing objects:  88% (201/228)   Writing objects:  89% (203/228)   Writing objects:  90% (206/228)   Writing objects:  91% (208/228)   Writing objects:  92% (210/228)   Writing objects:  93% (213/228)   Writing objects:  94% (215/228)   Writing objects:  95% (217/228)   Writing objects:  96% (219/228)   Writing objects:  97% (222/228)   Writing objects:  98% (224/228)   Writing objects:  99% (226/228)   Writing objects: 100% (228/228)   Writing objects: 100% (228/228), 370.24 KiB | 2.19 MiB/s, done.
-Total 228 (delta 32), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/32)   [Kremote: Resolving deltas:   3% (1/32)   [Kremote: Resolving deltas:   6% (2/32)   [Kremote: Resolving deltas:   9% (3/32)   [Kremote: Resolving deltas:  12% (4/32)   [Kremote: Resolving deltas:  15% (5/32)   [Kremote: Resolving deltas:  21% (7/32)   [Kremote: Resolving deltas:  25% (8/32)   [Kremote: Resolving deltas:  28% (9/32)   [Kremote: Resolving deltas:  31% (10/32)   [Kremote: Resolving deltas:  34% (11/32)   [Kremote: Resolving deltas:  46% (15/32)   [Kremote: Resolving deltas:  56% (18/32)   [Kremote: Resolving deltas:  71% (23/32)   [Kremote: Resolving deltas:  75% (24/32)   [Kremote: Resolving deltas:  78% (25/32)   [Kremote: Resolving deltas:  81% (26/32)   [Kremote: Resolving deltas:  84% (27/32)   [Kremote: Resolving deltas:  90% (29/32)   [Kremote: Resolving deltas:  93% (30/32)   [Kremote: Resolving deltas:  96% (31/32)   [Kremote: Resolving deltas: 100% (32/32)   [Kremote: Resolving deltas: 100% (32/32), done.[K
-To https://github.com/tmastny/grid.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/INDEX001[m
-	[31mmodified:   README.md[m
-	[31mmodified:   install-grid.R[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git add -A
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git commit-[K -m "add warning req[K[Kegarding tools modification"
-[master eb4ca1f] add warning regarding tools modification
- 4 files changed, 151 insertions(+), 3 deletions(-)
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git push
-Counting objects: 9, done.
-Delta compression using up to 8 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 3.34 KiB | 3.34 MiB/s, done.
-Total 9 (delta 5), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/5)   [Kremote: Resolving deltas:  20% (1/5)   [Kremote: Resolving deltas:  40% (2/5)   [Kremote: Resolving deltas:  60% (3/5)   [Kremote: Resolving deltas:  80% (4/5)   [Kremote: Resolving deltas: 100% (5/5)   [Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
-To https://github.com/tmastny/grid.git
-   1aa60d4..eb4ca1f  master -> master
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E[m
-	[31mmodified:   .Rproj.user/5082D8E3/console06/2FD98D0E.env[m
-	[31mmodified:   README.md[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git add -A
