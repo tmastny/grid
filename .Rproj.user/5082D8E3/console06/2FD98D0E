@@ -1,0 +1,119 @@
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[?1034h[33;1mgrid[m$ [K[33;1mgrid[m$ wc -[K-l ($[K[K$(ls -l R[K[K[K[KR)
+wc: components.R: open: No such file or directory
+wc: curve.R: open: No such file or directory
+wc: debug.R: open: No such file or directory
+wc: edit.R: open: No such file or directory
+wc: frames.R: open: No such file or directory
+wc: function.R: open: No such file or directory
+wc: gpar.R: open: No such file or directory
+wc: grab.R: open: No such file or directory
+wc: grid.R: open: No such file or directory
+wc: grob.R: open: No such file or directory
+wc: highlevel.R: open: No such file or directory
+wc: interactive.R: open: No such file or directory
+wc: just.R: open: No such file or directory
+wc: layout.R: open: No such file or directory
+wc: ls.R: open: No such file or directory
+wc: metric.R: open: No such file or directory
+wc: origin.R: open: No such file or directory
+wc: primitives.R: open: No such file or directory
+wc: roundRect.R: open: No such file or directory
+wc: size.R: open: No such file or directory
+wc: unit.R: open: No such file or directory
+wc: util.R: open: No such file or directory
+wc: viewport.R: open: No such file or directory
+wc: zzz.R: open: No such file or directory
+       0 total
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ ls
+DESCRIPTION.in Makefile.win   [1m[36mR[39;49m[0m              [1m[36minst[39;49m[0m           [1m[36mpo[39;49m[0m             [1m[36mtests[39;49m[0m
+Makefile.in    NAMESPACE      grid.Rproj     [1m[36mman[39;49m[0m            [1m[36msrc[39;49m[0m            [1m[36mvignettes[39;49m[0m
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ cd R
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/R]0;~/rpackages/grid/R[33;1mR[m$ wc -l $(ls)
+     337 components.R
+     535 curve.R
+     449 debug.R
+      74 edit.R
+     476 frames.R
+     103 function.R
+     264 gpar.R
+     241 grab.R
+     539 grid.R
+    2270 grob.R
+     419 highlevel.R
+      34 interactive.R
+     110 just.R
+     164 layout.R
+     887 ls.R
+      14 metric.R
+      74 origin.R
+    1680 primitives.R
+     162 roundRect.R
+     133 size.R
+     863 unit.R
+      47 util.R
+     412 viewport.R
+      68 zzz.R
+   10355 total
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/R]0;~/rpackages/grid/R[33;1mR[m$ wc[K[Kwc[K[Kwc[K[Kcd ..
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ cd src/
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ wc -l$[K $(ls)
+      55 Makefile.in
+      42 Makefile.win
+     346 gpar.c
+       3 grid-win.def
+    3791 grid.c
+     641 grid.h
+     128 just.c
+     648 layout.c
+     154 matrix.c
+     101 register.c
+     430 state.c
+    1920 unit.c
+     288 util.c
+     395 viewport.c
+    8942 total
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ ls | wc -l
+      14
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ [K[33;1msrc[m$ R
+[?1034h> [1m
+[0m> [1m
+[0m> quit)[K()
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ 
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ git init
+Initialized empty Git repository in /Users/Tim/rpackages/grid/src/.git/
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[32m[master][0m [33;1msrc[m$ rm r[K-rf .git
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid/src]0;~/rpackages/grid/src[33;1msrc[m$ cd ..
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[33;1mgrid[m$ git init
+Initialized empty Git repository in /Users/Tim/rpackages/grid/.git/
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ mv DESCRIPTION.in DESCRIPTION.in [K[K[K[K
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ ls
+DESCRIPTION  Makefile.win [1m[36mR[39;49m[0m            [1m[36minst[39;49m[0m         [1m[36mpo[39;49m[0m           [1m[36mtests[39;49m[0m
+Makefile.in  NAMESPACE    grid.Rproj   [1m[36mman[39;49m[0m          [1m[36msrc[39;49m[0m          [1m[36mvignettes[39;49m[0m
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ [K[32m[master][0m [33;1mgrid[m$ gits[K stau[Ktus
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31mDESCRIPTION[m
+	[31mMakefile.in[m
+	[31mMakefile.win[m
+	[31mNAMESPACE[m
+	[31mR/[m
+	[31mgrid.Rproj[m
+	[31minst/[m
+	[31mman/[m
+	[31mpo/[m
+	[31msrc/[m
+	[31mtests/[m
+	[31mvignettes/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]7;file://Timothys-MacBook-Pro.local/Users/Tim/rpackages/grid]0;~/rpackages/grid[32m[master][0m [33;1mgrid[m$ git add -A
