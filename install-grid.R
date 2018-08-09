@@ -1,6 +1,6 @@
 unlink("grid", recursive = TRUE)
 message("Modifying the tools package.")
-source("~/notes/grid-notes/install-base.R")
+source("install-base.R")
 tools:::.build_packages(".")
 untar("grid_1.1.tar.gz")
 tools:::.install_packages("grid")
